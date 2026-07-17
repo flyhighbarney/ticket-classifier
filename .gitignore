@@ -1,0 +1,42 @@
+# Raw HTML archive (large, reproducible)
+scraper/raw_html/
+
+# Selenium browser profile (cookies, login state)
+.browser_profile/
+
+# Scraped data (re-scrapable)
+data/raw_scraped.csv
+data/qa_scraped.csv
+data/processed/
+
+# Routed ticket outputs
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace model cache (large)
+models/
+.cache/
