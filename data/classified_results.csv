@@ -1,0 +1,504 @@
+category,confidence,tier,team,original_text,star_rating,product_category
+product_question,0.4587,escalate,Sales,Perfect !!! - i have a K15 and was concerned it wouldnt fit  but it was PERFECT !!!,5,coffee_maker
+return_request,0.319,escalate,Returns,WOW im impressed !!!!!! - im excited to see how the coffee comes out  i got 2 mason jars too  so i ordered a 2nd one of ,5,coffee_maker
+warranty_claim,0.4016,escalate,Warranty Ops,Good - these are OK  a little tooo big  but they work  i had ordered Melita discs and they were so flimsy  !!,4,coffee_maker
+return_request,0.4666,escalate,Returns,horrid - thin and chinsy i could even bother returning it i threw them out  - the second they touched the pot it disinte,1,coffee_maker
+return_request,0.3423,escalate,Returns,Five Stars - Good price for coffee filters.,5,coffee_maker
+return_request,0.3095,escalate,Returns,"Percolator filter rings - I have a percolator of course, but I also have a single cup/kcup maker that has a round at the",5,coffee_maker
+troubleshooting,0.2955,escalate,Tech Support,"percolater filters - Percolator filters, works great and makes dumping the grounds easily, therefore making cleanup easi",5,coffee_maker
+product_question,0.3491,escalate,Sales,Ez cup liners - If you have reusable single cup maker and cup these liners are a must have for easy clean up.  Much easi,5,coffee_maker
+troubleshooting,0.4286,escalate,Tech Support,single cup reusable - I was a little disappointed that it doesn't quite fit in my single cup maker - I had to really sla,4,coffee_maker
+product_question,0.3178,escalate,Sales,kcup liner - These make using your reusable kcup type cup holder a bit easier to clean and therefore maybe you'll want t,5,coffee_maker
+product_question,0.4585,escalate,Sales,tall paper single cup filters - purchased these to go in a single cup maker I just purchased that came with an unusual s,5,coffee_maker
+product_question,0.3707,escalate,Sales,larger stainless pitcher - I actually purchased this to pour one cup of water into my individual cup coffee maker.  So I,5,coffee_maker
+return_request,0.336,escalate,Returns,stainless steel pitcher - I actually purchased this to pour one cup of water into my individual cup coffee maker.  So I ,5,coffee_maker
+warranty_claim,0.4634,escalate,Warranty Ops,ez scoop - Worked ok.  Takes a little practice and easily makes a mess if you don't carefully use per directions.  If yo,4,coffee_maker
+warranty_claim,0.2832,escalate,Warranty Ops,just ok - These are ok... I am always looking for ways to make my Keurig more cost effective. These disposable filters a,3,coffee_maker
+product_question,0.5713,flagged,Sales,"great price - I ordered these after looking into replacements for my coffee maker.  Most are outrageously expensive, so ",5,coffee_maker
+return_request,0.395,escalate,Returns,Excellent Quality! - This small stainless steel frothing jug is an excellent quality. It's sturdy. It's the perfect size,5,coffee_maker
+return_request,0.3026,escalate,Returns,Works Well - I am very happy to have found these! My husband and I have an Esperta2 machine. I've been happy with the pr,5,coffee_maker
+return_request,0.3142,escalate,Returns,As good as any - I will buy these again for sure,5,coffee_maker
+return_request,0.3102,escalate,Returns,Great price for Bunn filters - Anyone with a Bunn coffee maker know you need real Bunn filter because they are taller. T,5,coffee_maker
+return_request,0.3232,escalate,Returns,Well made and a great price. Much cheaper than the ones at Walmart and just as good. - Have been buying these from Amazo,5,coffee_maker
+return_request,0.3283,escalate,Returns,Equivalent to what I got from Keurig but cheaper. - Great purchase as are most of the things I get from Amazon.,5,coffee_maker
+troubleshooting,0.3723,escalate,Tech Support,Works great better than Works better than the ones I used to buy the ones I got in stores. - Fits great and is a great v,5,coffee_maker
+warranty_claim,0.475,escalate,Warranty Ops,DOES NOT Work! - Does NOT work as described in the video in the listing!.....Coffee goes EVERYWHERE!,1,coffee_maker
+warranty_claim,0.5618,flagged,Warranty Ops,WORST Reusable Coffee Filter EVER! - It lets the coffee flow out the top of it and into your cup!..Also the holes are TO,1,coffee_maker
+warranty_claim,0.6093,flagged,Warranty Ops,Two Stars - very loose fit,2,vacuum
+product_question,0.4275,escalate,Sales,Just get it - This filter has held up with the continued use .<br />But I have been careful on when and how I clean it .,5,coffee_maker
+product_question,0.4211,escalate,Sales,This is the one that you need! - I love the ease of using and making my capsule.  The ‘cap’ top makes sealing the foil s,5,coffee_maker
+product_question,0.4547,escalate,Sales,love it for so many purposes. - so many uses these maison jars. I love the versatility as you could make preserves or pi,5,coffee_maker
+troubleshooting,0.4404,escalate,Tech Support,Works with seal pods - I was looking to keep our budget with our new found ways to enjoy our nesspresso and different co,5,coffee_maker
+return_request,0.3212,escalate,Returns,"I like it! - This works great.  It does leave some dark coffee in the bottom of the cup, but, that does not bother me.  ",5,coffee_maker
+product_question,0.4915,escalate,Sales,Nice tall coffee filter cones - I use these daily with 2 pour over coffee carafes. This is my second order. They are tal,5,coffee_maker
+troubleshooting,0.4765,escalate,Tech Support,It's ok - It's ok. Mine doesn't stay closed and it's difficult to clean. Even when I use a baby spoon to scrape it clean,3,coffee_maker
+product_question,0.6151,flagged,Sales,Great item - They look very nice on my stove,5,coffee_maker
+troubleshooting,0.5356,flagged,Tech Support,"French Press works better - I was so excited to use this for cold brew since I love so many OXO products, but this was a",1,coffee_maker
+return_request,0.5214,flagged,Returns,Convenient - They make clean up a snap. No mess.,5,coffee_maker
+return_request,0.3417,escalate,Returns,"Reusable Coffee Filter Set - Just the right coffee filter set I needed for our RV Keurig Mini, so now we will not have t",5,coffee_maker
+return_request,0.6566,auto_route,Returns,One Star - Did not fit either one of my Keurig Machines so sent it back for a refund,1,coffee_maker
+product_question,0.3443,escalate,Sales,Five Stars - these work just fine.,5,coffee_maker
+troubleshooting,0.4973,escalate,Tech Support,Doesn't work in mine. - I have a 2.0 Kuerig and these do not work. machinetells me that there is a pod in it that was no,1,coffee_maker
+return_request,0.4402,escalate,Returns,"no more sludge - I like using my own coffee, but I am not a fan of sludge (sediment) in the last drink of my coffee. It ",5,coffee_maker
+product_question,0.3448,escalate,Sales,"They clean the water - I double filter my water, these are the second system. I use a pitcher filter and then pour that ",5,coffee_maker
+troubleshooting,0.4196,escalate,Tech Support,Good replacement - Very inexpensive yet makes a world of difference.  Good quality.  Plug in hole larger than original e,4,coffee_maker
+return_request,0.3321,escalate,Returns,Five Stars - GREAT,5,coffee_maker
+return_request,0.3321,escalate,Returns,Five Stars - GREAT,5,coffee_maker
+product_question,0.3357,escalate,Sales,Five Stars - Worked well. Fit perfectly. Arrived when promised.,5,vacuum
+product_question,0.3209,escalate,Sales,Wonderful - We use ours daily and they work great.  We rinse them and place them in the basket area of our dishwasher an,5,coffee_maker
+product_question,0.4216,escalate,Sales,Good - Works well just like brand name ones,5,coffee_maker
+product_question,0.4281,escalate,Sales,Good - Seem to be good,5,coffee_maker
+return_request,0.3658,escalate,Returns,Product works fine. - Great money saving idea which brews great coffee. Disapointed that there are many much cheaper cop,3,coffee_maker
+product_question,0.3842,escalate,Sales,Very convenient! - These are great! Highly recommended!,5,coffee_maker
+product_question,0.3969,escalate,Sales,This thing is awesome! - And I use it in conjunction with the filters that fit this... My Keureg 2.0 is liberated! I get,5,coffee_maker
+return_request,0.3841,escalate,Returns,Coffee didn't taste too great when using these vs buying the k - They worked ok. Coffee didn't taste too great when usin,3,coffee_maker
+product_question,0.3859,escalate,Sales,Five Stars - Works with my Keurig.,5,coffee_maker
+product_question,0.5147,flagged,Sales,Fits Perfect - When we are low on coffee we can use these in our K machine. O bought stainless because I was afraid plas,5,coffee_maker
+product_question,0.3889,escalate,Sales,Nice and slim for a top dryer lint trap - Very nice. Flat and slim fits down top lint compartment well and gets the stuf,5,vacuum
+return_request,0.3125,escalate,Returns,Five Stars - It came right on time and just what I was looking for.,5,coffee_maker
+troubleshooting,0.7742,auto_route,Tech Support,My K-Cup and B40 - [[VIDEOID:552bd8e7a7c9edaed0c6e0d4a6490276]] *** VIDEO ATTACHED ***<br /><br />Originally I could not,4,coffee_maker
+warranty_claim,0.3161,escalate,Warranty Ops,Quality Coffee .. not quite .. but it works - I thought I'd give these a try since I found my regular K-Cups lacking in ,3,coffee_maker
+return_request,0.4513,escalate,Returns,Not quite as described - This is a good basic idea but has problems with actual functioning.  You must take off the drye,1,vacuum
+warranty_claim,0.4654,escalate,Warranty Ops,One Star - Does not keep the grounds out of your coffee.  Buy a fold over filter.,1,coffee_maker
+product_question,0.4134,escalate,Sales,Really helps - I can now make Nespresso pods using coffee beans that I buy and then grind at home; they are easy to use.,5,coffee_maker
+return_request,0.4001,escalate,Returns,Five Stars - Does a good job.,5,vacuum
+warranty_claim,0.3368,escalate,Warranty Ops,Water filter in Mr. Coffee - These filters are so often overlooked.  My husband is the only coffee drinker and I cleaned,5,coffee_maker
+return_request,0.4036,escalate,Returns,Five Stars - always reliable and does the best job.,5,coffee_maker
+product_question,0.4294,escalate,Sales,Shaped to fit! - These are perfect! Fit in my k cup no fumbling around. They are shaped to fit. Thanx so much for gettin,5,coffee_maker
+product_question,0.3889,escalate,Sales,"Pretty purple and gold! Luv it! - I bought the 6pack cups, perfect! I usually buy a 4 pack of black ones. They seems sma",5,coffee_maker
+product_question,0.3418,escalate,Sales,"Works with Cuisinart SS700 - Compatible with my Cuisinart (Keurig-style).  I use mainly with loose teas, 1 teaspoon for ",5,coffee_maker
+product_question,0.3526,escalate,Sales,Five Stars - They are exactly as described and we like having various frothing pitchers to choose from.,5,coffee_maker
+product_question,0.4761,escalate,Sales,Great bargain. I ordered these thinking I would share ... - Great bargain.  I ordered these thinking I would share w/my ,5,coffee_maker
+product_question,0.327,escalate,Sales,Keurig coffee filters.. - Fits perfect. Works great great coffee no grounds. Awesome,5,coffee_maker
+warranty_claim,0.3438,escalate,Warranty Ops,Keurig coffee filters - Works perfect.. Love them.. So handy. Fresh coffee everyone,5,coffee_maker
+troubleshooting,0.4565,escalate,Tech Support,Worth the cost - Most iPods will not close after filling with coffee but these work better than others I use.,4,coffee_maker
+warranty_claim,0.3552,escalate,Warranty Ops,Easy to use - Ordered natural color but got white.  That’s ok.,4,coffee_maker
+product_question,0.2805,escalate,Sales,work well for me - have used others like these with paper filters and they work well. would buy agaian,5,coffee_maker
+troubleshooting,0.5407,flagged,Tech Support,charcoal filter questionable - this filter did not show any signs of gray color when it was soaked before use.  maybe ch,4,coffee_maker
+troubleshooting,0.3653,escalate,Tech Support,Five Stars - work great for me with my replacement k cup,5,coffee_maker
+product_question,0.3795,escalate,Sales,These cups work good. Sometimes we have to hold down the cover ... - These cups work good.  Sometimes we have to hold do,4,coffee_maker
+troubleshooting,0.299,escalate,Tech Support,Five Stars - still using it a year later,5,coffee_maker
+product_question,0.3208,escalate,Sales,awesome - Great with my new single serve coffee maker...like to use my own coffee not the pods,5,coffee_maker
+product_question,0.3823,escalate,Sales,Easy to use your own brand - Use daily,5,coffee_maker
+troubleshooting,0.2657,escalate,Tech Support,Love it - Use it everyday.,5,coffee_maker
+warranty_claim,0.5887,flagged,Warranty Ops,"Cheaply made, won't last.  AVOID THIS ONE. - Cracked down the side the first time I used it.  Coffee grounds in my coffe",1,coffee_maker
+return_request,0.3333,escalate,Returns,Five Stars - Love these filters. Can use my favorite ground coffees easily in my keurig,5,coffee_maker
+product_question,0.4296,escalate,Sales,Five Stars - Great product,5,coffee_maker
+product_question,0.4076,escalate,Sales,"Works great - Works great, easy to clean & good for the environment",5,coffee_maker
+return_request,0.3001,escalate,Returns,Five Stars - wasnt what i needed,5,coffee_maker
+product_question,0.4126,escalate,Sales,Use it with a Keurig - Using this with a Keurig. It adds the right amount of water.,5,coffee_maker
+product_question,0.5215,flagged,Sales,"This is going to be great. - This is going to be great for my husband, he not to into the flavored coffees, so he will l",5,coffee_maker
+warranty_claim,0.314,escalate,Warranty Ops,"Best spittoon you can buy - I purchased my original mud jug about 5 years ago, and the price has more than paid for itse",5,coffee_maker
+return_request,0.4032,escalate,Returns,Easy to use - They don’t change the flavor of my coffee at all. These are a great price for how many you get!,5,coffee_maker
+troubleshooting,0.5606,flagged,Tech Support,Keep your Melitta working properly. Read why I might be wrong. - You can never go wrong with original brand filters in y,5,coffee_maker
+product_question,0.5455,flagged,Sales,Fits perfectly - Bunn is a good quick cup of coffee,5,coffee_maker
+product_question,0.3705,escalate,Sales,very happy from a first time pour over - The product arrived well packaged. It looks the same as the picture.<br /><br /,5,coffee_maker
+troubleshooting,0.3637,escalate,Tech Support,"Am fine with these not sure how much longer using pods - First, I did not have the problem where I ordered this many and",4,coffee_maker
+warranty_claim,0.3964,escalate,Warranty Ops,Agree w/several others - too much trouble to go to for brown water - I have my Senseo almost a year (just found out is b,2,coffee_maker
+return_request,0.3295,escalate,Returns,Good Deal; Works Great - These are the greatest things since the invention of the Keurig. I have two of the pods and a d,5,coffee_maker
+warranty_claim,0.5534,flagged,Warranty Ops,Un-Bleached #4 Coffee filters - Great quality.. great price... 100% without a single failure or tear.. Will definitely p,4,coffee_maker
+troubleshooting,0.4644,escalate,Tech Support,"Broan QS130 - Unit arrived well packaged and protected all the way to Alaska. Unit does not ship with any bulbs,wiring o",4,vacuum
+product_question,0.8032,auto_route,Sales,Perfect fit! - Great price !,5,coffee_maker
+return_request,0.2789,escalate,Returns,"Very good filters! - Pro: I have tried 3 different types of filters which all worked good, but these are just perfect. T",5,coffee_maker
+product_question,0.448,escalate,Sales,Good fit - Good fit and filter for my Keurig refill baskets. A bit pricey but good,5,coffee_maker
+warranty_claim,0.4565,escalate,Warranty Ops,Good to use with my coffee when I run out ... - Good to use with my coffee when I run out of the prefilled pods or want ,4,coffee_maker
+warranty_claim,0.4698,escalate,Warranty Ops,"Filters all flavor out ☹️ - Unfortunately, it filters all of the coffee flavor from the grounds. Tastes like warm water ",1,coffee_maker
+return_request,0.437,escalate,Returns,Great product - Bought as a replacement - works like a charm,5,coffee_maker
+return_request,0.5052,flagged,Returns,great - Easy to use and very easy to clean. Saves on buying filters. Good for the environment. I just save the grinds in,5,coffee_maker
+troubleshooting,0.3996,escalate,Tech Support,"Most basic dryer vent - Just a really lightweight dryer vent, very thin aluminum, would not withstand much impact, would",4,vacuum
+warranty_claim,0.4327,escalate,Warranty Ops,False advertising. NOT BREWORO - False advertising. NOT BREWORO,1,coffee_maker
+warranty_claim,0.6547,auto_route,Warranty Ops,Had to return - Had to return. Water went through much too fast.,1,coffee_maker
+product_question,0.4337,escalate,Sales,surprisingly useful - These have turned out to be surprisingly useful and sturdy. Love to think how much money I am savi,5,coffee_maker
+troubleshooting,0.3763,escalate,Tech Support,"Good value - Was able to use for my machine, which is a Farberware single cup. Taking the kcup holder and putting this i",5,coffee_maker
+warranty_claim,0.4233,escalate,Warranty Ops,"Not sure about this version of the prodcut - I've been using Keurig official ones for a long time. On this package, one ",3,coffee_maker
+troubleshooting,0.3273,escalate,Tech Support,Five Stars - Best one I've tried.,5,coffee_maker
+return_request,0.4126,escalate,Returns,Five Stars - Works great,5,coffee_maker
+return_request,0.2974,escalate,Returns,Got it quick Hard to find - Works great,5,coffee_maker
+product_question,0.4942,escalate,Sales,Perfect fit and performance - Zero coffee grounds in the bottom of the pot. Great tasting (ground) coffee bean flavor.,5,coffee_maker
+warranty_claim,0.2988,escalate,Warranty Ops,Good strudy filter - Seems like a very good value to me,5,coffee_maker
+product_question,0.4023,escalate,Sales,Filters - Filters fit perfectly - clean easily - last through 12-15 uses without a problem.  Be sure to dry thoroughly b,5,coffee_maker
+product_question,0.2878,escalate,Sales,My-Kap - This is one of the best purchases I have ever made.  I have not found a K-cup that equals the quality and aroma,5,coffee_maker
+troubleshooting,0.4368,escalate,Tech Support,Four Stars - It took some time to get these filters but they work great,4,coffee_maker
+product_question,0.4784,escalate,Sales,Five Stars - It fits perfect in my coffee maker,5,coffee_maker
+warranty_claim,0.367,escalate,Warranty Ops,"Clean up your coffee - If you use the reusable pods but don't like the ""mud"" that the plain screen let through you need ",5,coffee_maker
+warranty_claim,0.3134,escalate,Warranty Ops,Got to have these - Love these much better value than buying pods.Dont waste coffee by pouring half a pot down the sink,5,coffee_maker
+product_question,0.3868,escalate,Sales,"seasoned cold brewer here, lots of info below, brewer works great, easy to use - I have been drinking ""cold brew"" for we",5,coffee_maker
+product_question,0.4474,escalate,Sales,"perfectly fine unbleached compostable coffee filter - ""If You Care"" products are pretty good. I buy them when I can as I",5,coffee_maker
+return_request,0.3379,escalate,Returns,"Perfectly fine product, does the job with care - Every ""If You Care"" product I have used has been a good product. I am p",5,coffee_maker
+warranty_claim,0.3582,escalate,Warranty Ops,"High quality, stainless steel, reusable k-cups, not for the Supreme models... - I'm sure these are perfectly fine reusab",5,coffee_maker
+product_question,0.3521,escalate,Sales,"A complete dryer vent cleaning kit that all homeowners should have... - A few yrs ago, our dryer wasn't drying anymore. ",5,vacuum
+product_question,0.594,flagged,Sales,Nice solid 4 ft x 10 ft foil duct... - The most economical foil duct at your local HD might be the Everbilt brand that i,5,vacuum
+product_question,0.2969,escalate,Sales,Handy - It is a good scoop. You just have to watch how much you fill it.,4,coffee_maker
+product_question,0.4757,escalate,Sales,Great Set but LOVE the filters! - I found these worked just as well as my other reusable k-cups and I love the filters s,5,coffee_maker
+product_question,0.3861,escalate,Sales,Great for the Week - These are great and work just as they should. I love to fill them for the week so I don't have to w,5,coffee_maker
+return_request,0.353,escalate,Returns,"Great - A nice, robust coffee flavor. It works great in my Keurig brewer. Makes a great cup of coffee. I do recommend it",5,coffee_maker
+troubleshooting,0.7046,auto_route,Tech Support,Works great! - This universal filter for use in Keurig coffee machines is great. It allows me to use my favorite coffee ,5,coffee_maker
+return_request,0.3316,escalate,Returns,Nice towels - I am happy with these. The absorbency was good. I liked the bright colors. Be careful when you wash them w,5,vacuum
+return_request,0.4845,escalate,Returns,Excellent value - A very well made filter basket at a great price.,5,coffee_maker
+return_request,0.4658,escalate,Returns,Epic Fail - This is the third one of these I've tried. None of them fit the way they say and none of them work. Can't re,1,coffee_maker
+product_question,0.5692,flagged,Sales,Fit perfectly - Fit perfectly in my Aicok single coffee maker. They are a little easier to clean if you let the coffee g,5,coffee_maker
+product_question,0.3735,escalate,Sales,money saving and eco friendly - This is a very convenient way to use the Keurig more economically and use your favourite,4,coffee_maker
+product_question,0.3537,escalate,Sales,"Works perfectly - This is a great little frothing pitcher. No issues with cleaning it up, it comes out sparkling every t",5,coffee_maker
+product_question,0.3664,escalate,Sales,"Work Great! - I bought these for my hubby as he doesnt like flavored coffee but loves the Keurig. They work great, easy ",5,coffee_maker
+troubleshooting,0.58,flagged,Tech Support,Works For My Magic Chef Portable Dryer - I bought these to replace my filters for my Magic Chef portable dryer and they ,5,vacuum
+product_question,0.3302,escalate,Sales,Easy and no waste. - This summer I have become dependent on cold brew coffee. I was just putting the grounds in a jar wi,5,coffee_maker
+product_question,0.4853,escalate,Sales,The easiest way to make good coffee anywhere - This is the 5th one I've bought - all the previous ones were nicked by my,5,coffee_maker
+troubleshooting,0.4441,escalate,Tech Support,Quick service - The item arrived quickly and was exactly as described. I've used this coffee cone on several trips and a,5,coffee_maker
+return_request,0.3877,escalate,Returns,"Great - Excellent value, works well.",5,coffee_maker
+troubleshooting,0.4921,escalate,Tech Support,"works great - no real issues - I've used it on one trip so far. It has a couple obvious drawbacks, but it works every bi",5,coffee_maker
+return_request,0.3381,escalate,Returns,Perfect. - I'm not going to try any other filter. I love the coffee I make with these. I roast my own at home and use th,5,coffee_maker
+warranty_claim,0.3118,escalate,Warranty Ops,"Hard to find this six - I use these with a single serve (non pod) travel coffee maker. Perfect for daily or travel, make",5,coffee_maker
+product_question,0.3617,escalate,Sales,Five Stars - Work well with my coffee toddy.,5,coffee_maker
+return_request,0.4539,escalate,Returns,Great filters and an even better price - I bought these for home use.  I shouldn't have to buy filters again for at leas,5,coffee_maker
+warranty_claim,0.5073,flagged,Warranty Ops,"Luke  warm tea - This coffee maker is beautiful, but it’s makes Luke warm tea with a weak flavor.",3,coffee_maker
+troubleshooting,0.6081,flagged,Tech Support,Can't figure why this will not fit! - The Keurig that I brought from Amazon is this one:  It is does not have a number t,3,coffee_maker
+product_question,0.2811,escalate,Sales,Exact match to Keurig filter. - Matched perfectly to the OEM filter. It fit in my Keurig k-155 with no issues.  The filt,5,coffee_maker
+warranty_claim,0.2808,escalate,Warranty Ops,"Decent Quality - The plastic portions of these reusable filters are a bit flimsy, like the handle, but they work well fo",4,coffee_maker
+product_question,0.5399,flagged,Sales,"As Advertised - This duct is standard, and comes at a standard price. Fairly well-made and should hold up well.",4,vacuum
+product_question,0.3954,escalate,Sales,"Outstanding - This is a great addition to any kitchen, especially if you don't have an ice-maker in the freezer. Setting",5,vacuum
+return_request,0.3977,escalate,Returns,"Save Some Money - This is so easy to use, and the results I've gotten have been great! You're creating cold brew concent",5,coffee_maker
+warranty_claim,0.5497,flagged,Warranty Ops,To thick to fit in a pod - It is too thick to fit in a pod.,2,coffee_maker
+return_request,0.3009,escalate,Returns,Best K-Caraf filter that I have used so far - It is much better than other brands that I have used in terms of being thi,5,coffee_maker
+troubleshooting,0.6856,auto_route,Tech Support,Not for Keureg 2.0 K550 - I have a Keureg 2.0 K550. Doesn't work with the filters. I tried several times and it overflow,3,coffee_maker
+return_request,0.3206,escalate,Returns,"Good quality, don't overfill, don't use filter. - Cups work well, but make sure you don't overfill them. My other ones h",4,coffee_maker
+warranty_claim,0.3871,escalate,Warranty Ops,So hard to find large tea cases like this.  Nice and roomy for larger pitchers - A screw or some type of mechanism to ke,5,coffee_maker
+warranty_claim,0.5283,flagged,Warranty Ops,"Excellent large tea/coffee ""bag"".  A little smaller than a normal sized man's fist. - The lid does not attach however.  ",5,coffee_maker
+product_question,0.5192,flagged,Sales,Good buy - This complements the metal pods. It does exactly what it says. Sturdy and durable.,5,coffee_maker
+return_request,0.3431,escalate,Returns,Better than plastic - I've tried the plastic refillable k-cup pods and they are okay but these are way better. They don',5,coffee_maker
+warranty_claim,0.3683,escalate,Warranty Ops,My coffee and the Keurig - I was tired of using substandard coffee in my keurig so ordered these and now I can use my Ko,5,coffee_maker
+product_question,0.3649,escalate,Sales,Cute and useful - I originally got this as a frothing pitcher but find it works just as well as a placeholder under my c,5,coffee_maker
+troubleshooting,0.5342,flagged,Tech Support,Works? - I had trouble in the beginning with this since you have to have the correct grind and fill the capsule to the r,4,coffee_maker
+troubleshooting,0.3326,escalate,Tech Support,More trouble than I want to invest - These take a lot of work to make happen. I was hoping to be able to “make” my own c,3,coffee_maker
+product_question,0.4283,escalate,Sales,"Nicely shaped, no drips - I generally use this as a catch for my Jura to rinse into unless I’m making cappuccino (which ",5,coffee_maker
+product_question,0.3364,escalate,Sales,Arrived in the nick of time - My last frothing pitcher had just died when this arrived so it went to work right away. It,5,coffee_maker
+product_question,0.2865,escalate,Sales,Fits Philips 3221/44 Espresso Machine- So Far So Good - We have a Philips Espresso machine that the entire family loves.,5,coffee_maker
+product_question,0.3776,escalate,Sales,"Perfect If You Don't Like The Water Speeding Through Your Aeropress - I have had an Aeropress for some time now, and one",5,coffee_maker
+troubleshooting,0.4588,escalate,Tech Support,Glad This Came With TWO - Broke First One - One of the places my family goes a lot has a Keurig.  We don't generally lik,4,coffee_maker
+product_question,0.5338,flagged,Sales,"Nicer For Single Serving, Otherwise Not As Nice - My family has a little coffee shop in our home.  We love to make diffe",4,coffee_maker
+troubleshooting,0.4416,escalate,Tech Support,Great To Take To Coffee Houses But Not My Favorite - I am spoiled.  I have had one of the nicest frothers ever.  Cafe Ca,3,coffee_maker
+product_question,0.2854,escalate,Sales,Just what I needed. - Great product and can me used in any Keurig. It can be used with or without a paper filter as well,5,coffee_maker
+product_question,0.3581,escalate,Sales,Works great!! - Just as advertised.  Works great !!,5,coffee_maker
+return_request,0.3773,escalate,Returns,Really works well - Works well,5,coffee_maker
+product_question,0.3733,escalate,Sales,Great - I love this product,5,coffee_maker
+return_request,0.7135,auto_route,Returns,"Horrible return policy... it isn’t for my keurig, it advertised it was. - It doesn’t even fit my machine AT ALL. Apparen",1,coffee_maker
+product_question,0.4335,escalate,Sales,These are AMAZING!! - Absolutely perfect filters for our Keurig!! So happy not to have a mess or sediment in our cups an,5,coffee_maker
+product_question,0.308,escalate,Sales,"Great product, I love it! - Great product, I love it!",5,coffee_maker
+product_question,0.3701,escalate,Sales,"Great product - Works like a charm, I love it!",5,coffee_maker
+return_request,0.3586,escalate,Returns,Five Stars - Fantastic  Work very well,5,coffee_maker
+warranty_claim,0.5287,flagged,Warranty Ops,The 185 are great These are too small for a single cup of - The 185 are great  These are too small for a single cup of c,1,coffee_maker
+return_request,0.406,escalate,Returns,nice - nice,5,coffee_maker
+product_question,0.3946,escalate,Sales,Perfect - These are exactly what we needed for our keurig. Helps keep everything working nicely.,5,coffee_maker
+troubleshooting,0.3289,escalate,Tech Support,Best. Ever. - Very pleased I purchased this! It works perfectly and is easy to clean.,5,coffee_maker
+troubleshooting,0.5503,flagged,Tech Support,sturdy - straining,5,coffee_maker
+troubleshooting,0.4199,escalate,Tech Support,"What's All the Fuss About? - In spite of some disparaging reviews, I decided to order 2 of these.  Other reviewers who c",5,coffee_maker
+product_question,0.76,auto_route,Sales,FITS THE BUNN MY CAFE K-CUP DRAWER!! - $ave a lot of $$$ with these. The main reason I purchased this particular brand o,5,coffee_maker
+product_question,0.3314,escalate,Sales,"Melitta Cone Coffee Filters, Natural Brown #4, 100 Count (Pack Of 3) - Melitta Cone Coffee Filters, Natural Brown #4, 10",5,coffee_maker
+return_request,0.324,escalate,Returns,"Melitta #2 Super Premium Cone Coffee Filters, Natural Brown, 100 Count (Pack of 6) - Melitta #2 Super Premium Cone Coffe",5,coffee_maker
+return_request,0.3447,escalate,Returns,"Great Value - Great deal for the price, yes they come in a bag but no big deal.  All they are is carbon filters that pre",5,coffee_maker
+product_question,0.3427,escalate,Sales,Five Stars - Great idea to filter coffee water. Coffee tastes much better.,5,coffee_maker
+product_question,0.505,flagged,Sales,Just right - Fits the Andi's coffeemaker.. Love it!,5,coffee_maker
+warranty_claim,0.3781,escalate,Warranty Ops,"Boy, What Would I Give for Unbleached - Not a big fan of dioxins in my coffee from bleached products, but I *just* can't",2,coffee_maker
+return_request,0.3877,escalate,Returns,Disappointing - Coffee grounds in coffee - I have tried multiple times to use reusable filter to make coffee in my Keuri,1,coffee_maker
+return_request,0.4061,escalate,Returns,Five Stars - Excellent customer service to go along with an excellent product.,5,coffee_maker
+product_question,0.288,escalate,Sales,"Problem free, made in the USA - Three refillable K-Cups in a package is perfect because I now have one dedicated to coff",5,coffee_maker
+product_question,0.4202,escalate,Sales,Chemex filters are necessary for the best coffee in a Chemex pot - I've been brewing coffee for decades in a Chemex coff,5,coffee_maker
+product_question,0.3487,escalate,Sales,"When done, throw into the compost pile - The Melitta Tea Filters, 40-Count (Pack of 6) is a wonderful way to create tea ",5,coffee_maker
+product_question,0.2756,escalate,Sales,Well constructed and shapely large vessel - I very much like the shape of this pitcher because it's diameter is larger t,5,coffee_maker
+product_question,0.4377,escalate,Sales,Quality Filters! - This brand of filters is made of quality paper and sturdy.,5,coffee_maker
+product_question,0.6323,flagged,Sales,"Convenient and Saves Money - I actually bought this item as a backup, just in case coffee filters run out and are no lon",5,coffee_maker
+warranty_claim,0.4088,escalate,Warranty Ops,Great option. - These where great! But for some reason my coffee comes out very weak :( I bought a couple of good brands,5,coffee_maker
+return_request,0.4357,escalate,Returns,Very easy to clean. - Soap and water are good...don't recommend using bleach; dish soap and let dry.,5,coffee_maker
+return_request,0.4187,escalate,Returns,Disposable - Only use them one time for each brewing. One doesn't taste the paper.,5,coffee_maker
+product_question,0.449,escalate,Sales,"Great for a shared coffee maker - Perfect for a community K-cup coffee maker, I no longer have to use the shared re-usab",5,coffee_maker
+warranty_claim,0.307,escalate,Warranty Ops,Size matters - Got these for the Bunn Velocity Brew coffee maker.  They are deeper than the average basket coffee filter,5,coffee_maker
+troubleshooting,0.5946,flagged,Tech Support,Cover malfunctioning - 3 of the covers does not close after few uses.,1,coffee_maker
+product_question,0.3452,escalate,Sales,Great! - Great filters. Fits my Kcups. Will order a again,5,coffee_maker
+return_request,0.3454,escalate,Returns,Great - Great,5,coffee_maker
+warranty_claim,0.392,escalate,Warranty Ops,"Fits perfectly - Finally, we have a spare. Fits perfectly.",5,coffee_maker
+product_question,0.3769,escalate,Sales,Works as described - Works as described,5,coffee_maker
+product_question,0.3023,escalate,Sales,Great for Nespresso Pod Refills - I got these as an experiment to replace my MyCaps brand filters for the Nespresso refi,5,coffee_maker
+warranty_claim,0.3911,escalate,Warranty Ops,Coffee grinds everywhere - This isn’t my first attempt at using a foil-based pod reloading kit but will be my last. Not ,1,coffee_maker
+troubleshooting,0.3223,escalate,Tech Support,"Simple concept but hard to execute - This product is a great idea but can be a little finicky. If the adhesive holds, th",3,coffee_maker
+product_question,0.7197,auto_route,Sales,Indistinguishable from Chemex filters. - Likes.<br />Same as the Chemex filter.<br /><br />Cons.<br />You need to fold t,5,coffee_maker
+warranty_claim,0.3859,escalate,Warranty Ops,Drinkable but doesn't compare. - My wife wanted to try this using  her regular Dunkin Donuts grounds.<br /><br />Easy to,1,coffee_maker
+product_question,0.4724,escalate,Sales,"Easier To Clean, Inside Smooth - I've used a few metal pour over drippers, this one by far is my favorite. The inside of",5,coffee_maker
+warranty_claim,0.3706,escalate,Warranty Ops,"Coffee drip filters - You get 2 pcs and they work as I expected. They seem a bit flimsy, plastic, but they do what they ",5,coffee_maker
+return_request,0.5961,flagged,Returns,Five Stars - Love it..getting rid of my coffee maker,5,coffee_maker
+warranty_claim,0.4465,escalate,Warranty Ops,"Easy peasy to use AND clean. - My husband uses these. I broke it when cleaning so this was to replace it. Well, he says ",5,coffee_maker
+product_question,0.3254,escalate,Sales,"Organic is important - I’ve only used this once. That said, it’s my first cloth nut bag. The others are all nylon. Becau",5,coffee_maker
+product_question,0.3656,escalate,Sales,"Work Great! - I purchased these cause of the cost of the cups, they work great. I have been very happy so far just a lit",5,coffee_maker
+warranty_claim,0.4254,escalate,Warranty Ops,Three Stars - The water seems to run through rather quickly causing the coffee to be weak.,3,coffee_maker
+warranty_claim,0.3831,escalate,Warranty Ops,Leaks - [[VIDEOID:c349089b70f89e2d05ddd37f32f3fc27]] [[VIDEOID:ad5b0124e39c5b975584cfb8f82414e8]] [[VIDEOID:5985329f2c2a,1,coffee_maker
+product_question,0.3748,escalate,Sales,Fit perfectly - Excellent product for my coffee maker. No complaints.,5,coffee_maker
+product_question,0.412,escalate,Sales,Excellent product - Measure coffee,5,coffee_maker
+warranty_claim,0.4786,escalate,Warranty Ops,Just like the original K-cups - Theses refillable K-Cups are exactly what I wanted. I couldn’t be happier with the quali,4,coffee_maker
+return_request,0.4361,escalate,Returns,Excellent product - Since grinding coffee very fine; I find these little paper filters make sure I’m not drinking ground,5,coffee_maker
+product_question,0.2962,escalate,Sales,Useful to rinse quinoa - Quinoa is too small to be rinsed in my other strainers. I use this to rinse quinoa. I wash in u,5,coffee_maker
+product_question,0.6063,flagged,Sales,Work well in a Keurig - Bought these for our own use. They work well. Much cheaper to use these than to buy k-cups. Love,5,coffee_maker
+product_question,0.3386,escalate,Sales,Love this little pitcher! - I love this little pitcher to froth my milk. It’s a perfect size. I bought the 20 ounce size,5,coffee_maker
+return_request,0.4736,escalate,Returns,Great for recycling K cups - I love this. We use it daily to recycle our K cups. Have been giving them as gifts.,5,coffee_maker
+product_question,0.3894,escalate,Sales,work great - These work great if you have a refillable that gets grounds in your cup.  But they're unnecessary if your r,5,coffee_maker
+return_request,0.4065,escalate,Returns,a little too late - I personally don't drink coffee but my Mom has 2 of these that she used before I bought this order a,2,coffee_maker
+return_request,0.5648,flagged,Returns,"No-nonsense single cup coffee maker... This one's for YOU! - This is perfect for you, if you're a single coffee drinker ",5,coffee_maker
+product_question,0.5684,flagged,Sales,Good buy - Great filters,5,coffee_maker
+return_request,0.4026,escalate,Returns,Great value - Great filters for a cheap price.  They work great and were easy to install.,5,coffee_maker
+product_question,0.3482,escalate,Sales,Really nice you will want one - One day I was at a friends house and I saw this as he was making us some coffee. I asked,5,coffee_maker
+warranty_claim,0.6311,flagged,Warranty Ops,Dead on arrival - Had to return it did not work,1,coffee_maker
+return_request,0.4141,escalate,Returns,Works well - Very good,5,coffee_maker
+warranty_claim,0.2915,escalate,Warranty Ops,very happy - can't live with out these,5,coffee_maker
+product_question,0.3925,escalate,Sales,"Great filters for perked coffee on stove top, countertop, perculators or coffee machines. - Great little filters, no mor",5,coffee_maker
+product_question,0.2866,escalate,Sales,Great filters for all perked coffee machines... - Love these circular little filters. They fit perfectly in the basket a,5,coffee_maker
+product_question,0.3491,escalate,Sales,Five Stars - Terrific little frothing cup!,5,coffee_maker
+return_request,0.4219,escalate,Returns,"BUNN 1M5002 Commercial Coffee Filters, - great commercial filter can no longer get these in my area.",5,coffee_maker
+product_question,0.3923,escalate,Sales,Fantastic! - Works perfectly! I'm able to use my own coffee and couldn't be happier.,5,coffee_maker
+product_question,0.4838,escalate,Sales,"Great value - Cleans up well, lightweight, dishwasher safe.",5,coffee_maker
+troubleshooting,0.3481,escalate,Tech Support,At last a filter that lets no grounds out - I have a 12 cup Proctor Silex coffee maker that I love.  Only problem is no ,5,coffee_maker
+product_question,0.411,escalate,Sales,Five Stars - good things,5,coffee_maker
+product_question,0.5226,flagged,Sales,Works as advertised - Works well,5,coffee_maker
+product_question,0.514,flagged,Sales,Love - Great price works perfect  for keruig  coffee maker.,5,coffee_maker
+product_question,0.3832,escalate,Sales,"Like - Great price, good bang for your buck.",5,coffee_maker
+warranty_claim,0.3374,escalate,Warranty Ops,Not great - Coffee pods fit good and no mess but can’t fit much in them and coffee taste weak you might need a stronger ,1,coffee_maker
+troubleshooting,0.5245,flagged,Tech Support,Just as good as other major brands ! - [[VIDEOID:4ad88288ecadf4922f6c4df1cf86656b]] I totally forgot my Keurig machine h,5,coffee_maker
+product_question,0.3238,escalate,Sales,"Works perfectly to keep grinds out of your cup - These work perfectly for grinding my own beans for my Keurig. Finally, ",5,coffee_maker
+warranty_claim,0.3937,escalate,Warranty Ops,They allow coffee grinds into the cup no matter what type of grind I use. - Allows grounds and ‘silt’ into my coffee. Al,1,coffee_maker
+return_request,0.314,escalate,Returns,"Work great and last a long time. - They are an exact replacement for my older keurig pods. Inexpensive, but last a prett",5,coffee_maker
+troubleshooting,0.4366,escalate,Tech Support,Be careful:  you can lose the valve! - Today I am buying a second one of these because the valve in the first one got lo,5,blender
+troubleshooting,0.4616,escalate,Tech Support,Awsome - New filters kept me from having to purchase a new vacuum.  The suction is back and cleans better than ever.,4,vacuum
+return_request,0.3366,escalate,Returns,"Great! - Wow! Humidifier filters! These changes my life in so many ways and chicks dig them. Seriously, they do what the",5,vacuum
+product_question,0.6827,auto_route,Sales,Works great! Used on over the range microwave. - Worked perfectly.  Bought an anchor suitable for sheetrock and the weig,5,air_fryer
+troubleshooting,0.5869,flagged,Tech Support,Fast cooking but lots to learn. - I was so excited to receive this product.  I had been dreaming of an induction range f,1,air_fryer
+troubleshooting,0.2735,escalate,Tech Support,They fit on my humidifiers - They’re just packs of the right size wicks you just swap them out monthly they seem to work,5,vacuum
+troubleshooting,0.7971,auto_route,Tech Support,A must - My dryer stopped drying clothes and I noticed that the vent was clogged.  A company I called wanted to charge 2,5,vacuum
+troubleshooting,0.5251,flagged,Tech Support,"Does what it's supposed to do, but... - ...but it makes a dreadful unholy whisling noise which makes it very difficult t",3,vacuum
+warranty_claim,0.5129,flagged,Warranty Ops,Decent replacement - Lighter and thinner fabric than the OEM bag and the fit to the blower is very tight.<br />Despite t,4,vacuum
+troubleshooting,0.2693,escalate,Tech Support,Like - Like,5,vacuum
+product_question,0.3882,escalate,Sales,"Near exact. - This is pretty much a perfect, exact replica of the filters I usually use for my Rigid ""tool box"" shop vaa",5,vacuum
+return_request,0.3868,escalate,Returns,"Looks nice, but poor build quality and reliability - I had high hopes for this ice maker since it makes ice differently ",2,blender
+return_request,0.3141,escalate,Returns,"Easy to use - This was the best thing  I bought myself to use, it’s fast nd easy",5,vacuum
+product_question,0.3715,escalate,Sales,Great ice. - I was a little unsure about a countertop ice machine especially at such a reasonable price.  I didn’t need ,5,blender
+troubleshooting,0.4866,escalate,Tech Support,"Induction with a 30"" oven with Air Fry!  Great value.  Loving it more each week. - Had a Maytag five burner which was a ",5,air_fryer
+product_question,0.4194,escalate,Sales,"Awesome - One of my best purchases, I love chewing ice, and this way it won’t brake my teeth!!",5,vacuum
+warranty_claim,0.3236,escalate,Warranty Ops,which ice cubes was seperated - the cubes stay stuck together so you have to break them apart it would be better if they,5,blender
+return_request,0.3118,escalate,Returns,Absolutely love this thing!! - Best ice ever!! Price is steep but worth it!! Produces a lot of ice.,5,vacuum
+troubleshooting,0.6562,auto_route,Tech Support,"Made in China, but so is just about everything else. - I used this to repair my Kitchen Aid stand mixer.  It works, but ",4,blender
+warranty_claim,0.5191,flagged,Warranty Ops,2 MACHINES BROKE IN 1 YEAR - OPAL will make you jump through a dozen hoops before they will replace under the warranty a,1,vacuum
+return_request,0.3642,escalate,Returns,Good - Works good,5,vacuum
+warranty_claim,0.4679,escalate,Warranty Ops,Flimsy - The flaps are super flimsy. They’re held into the main body by one microscopic pin on either side. You have to ,1,vacuum
+product_question,0.3679,escalate,Sales,Good tools to have if you want keep your home safe. - Good tools to have if you want keep your home safe.,4,vacuum
+product_question,0.3554,escalate,Sales,"Does the job. - I get the tools to clean, what a bargain.",5,vacuum
+troubleshooting,0.4238,escalate,Tech Support,Good Fit - Fit nice and no issues in my LG refrigerator. Made in Korea which is where the OEM filter is made.,4,vacuum
+return_request,0.2845,escalate,Returns,"I just can't really say I'm crazy about these towels. - These are a nice, rich dark green color but I can't quite get us",3,vacuum
+return_request,0.3916,escalate,Returns,They’re perfect & shiny! - Replaced these on my stove and it looks brand new once again. Great deal!,5,air_fryer
+warranty_claim,0.462,escalate,Warranty Ops,"Inferior product - The bonding between the metal and the plastic is faulty, both gears failed during first use.  Order O",1,blender
+troubleshooting,0.3379,escalate,Tech Support,Nice replacement hoses. - These fit perfectly and look to be very well made.,5,blender
+troubleshooting,0.713,auto_route,Tech Support,Save repair costs! - Bought one to prevent problems. Bought another because my son’s dryer wasn’t heating. The problem? ,5,vacuum
+product_question,0.5644,flagged,Sales,"Exactly As Advertised - These are exactly what you get from the store, or what you would receive from Bunn company direc",5,blender
+product_question,0.3529,escalate,Sales,Good product - Was easy to put in and light is very broght,5,vacuum
+product_question,0.64,flagged,Sales,Multiple uses for this tool! - Lightweight plastic tool provides multiple options for use. I use for cleaning under seat,5,vacuum
+return_request,0.4417,escalate,Returns,Overpriced piece of plastic - Overpriced piece of plastic,1,vacuum
+product_question,0.3181,escalate,Sales,JUST Fit into Dryer - Dryer lint vents are VERY NARROW.  This did Just fit into the dryer Lint vent.  So it does work.,4,vacuum
+troubleshooting,0.464,escalate,Tech Support,Range hood - This hood looks great.  I didn't think to order te filters until I received the hood.  It appears to work f,5,vacuum
+product_question,0.2979,escalate,Sales,"Very glad to be able to use it again - Fits my 9 speed Kitchenaid hand mixer, perfectly. Very glad to be able to use it ",5,blender
+troubleshooting,0.328,escalate,Tech Support,Works as advertised - I am very pleased with this purchase. I can't believe it took me this long to buy one of these. I ,5,vacuum
+product_question,0.3587,escalate,Sales,Clean fresh ice ! - Ooh this is everything. I have the Berkey Water purifier; I love it and wanted my ice to taste just ,5,blender
+return_request,0.3793,escalate,Returns,Stick with the more expensive filters! - I received these inexpensive filters within the proposed delivery timeline.  Ho,2,vacuum
+warranty_claim,0.4211,escalate,Warranty Ops,W we irked for me - Fit my Toro ultra blower vac 108-8987. Might be a tiny bit smaller than the original but I can’t be ,5,vacuum
+troubleshooting,0.3571,escalate,Tech Support,Basically a glorified piece of tubing that sucks out massive amounts of crap - Sucked out gigantic bits of lint goo  in ,5,vacuum
+troubleshooting,0.6504,auto_route,Tech Support,If you have a dryer you need to perform this maintenance - Between my kids' homes and ours we are sure this save us from,5,vacuum
+product_question,0.3821,escalate,Sales,"Easy to install and use, recycles ice melt - Makes nice party ice, not what I would use for an ""on the rocks"" but great ",5,vacuum
+return_request,0.3944,escalate,Returns,"Great product - Used right away. Sturdy, easy to use. Great value and quality",5,vacuum
+return_request,0.3675,escalate,Returns,The best. - My only regret is that we didn’t buy it years ago.  We love it.,5,vacuum
+troubleshooting,0.2851,escalate,Tech Support,These look just like the original beaters - These look just like the original beaters. Really like the little Kitchenaid,5,blender
+troubleshooting,0.3007,escalate,Tech Support,fits my vac - They do fit my filter on my vacuum cleaner. They are tight to put on though,4,vacuum
+troubleshooting,0.5848,flagged,Tech Support,Fixed for less than the cost of a service call. - Easy fix. Perfect fit. Priced right. Now have plenty of ice.,5,air_fryer
+troubleshooting,0.5451,flagged,Tech Support,"Best kept secret - This thing doesn't look like much, but boy it's a lot!  I was struggling with a lot of lint buildup, ",5,vacuum
+product_question,0.3075,escalate,Sales,Great quality for the cost - I had an H2P unit installed in our bedroom and it came with pathetic venting. The rain and ,5,vacuum
+product_question,0.3629,escalate,Sales,No more filters or inversion required - I never liked the inverted method of brewing. The idea of the hot water sitting ,5,blender
+warranty_claim,0.3077,escalate,Warranty Ops,Shark model NV 360 - These filters fit my vacuum perfectly. I have a Shark NV 360. The package it came in didn't say NV ,5,vacuum
+troubleshooting,0.3195,escalate,Tech Support,"Great and cheap, no wonder local mom and pops are going out of business - Last time I bought one of these was from a loc",5,vacuum
+warranty_claim,0.6249,flagged,Warranty Ops,If you have rubber lines you are just asking for a flood at some point - good quality,4,blender
+return_request,0.3579,escalate,Returns,Works great. - Works great.,5,blender
+return_request,0.3073,escalate,Returns,these work good - These work just fine as a less expensive replacement...no complaints from me.,5,vacuum
+warranty_claim,0.5523,flagged,Warranty Ops,"perfect replacement - I use ice all the time, mine broke after seven years, this was a perfect replacement.  10 minute i",4,vacuum
+return_request,0.3949,escalate,Returns,Five Stars - Works great!,5,vacuum
+product_question,0.396,escalate,Sales,Five Stars - good product,5,vacuum
+troubleshooting,0.2989,escalate,Tech Support,best exhaust fan ever - This Broan SS range hood was easy to install and works quietly and draws  the heat and fumes fro,5,vacuum
+return_request,0.5706,flagged,Returns,Made an enormous mess - I sent this back because the water canister leaked terribly all over my kitchen multiple times. ,3,vacuum
+product_question,0.4696,escalate,Sales,Works just like the original - These fit fine and seem just like the original ones.,5,vacuum
+troubleshooting,0.5532,flagged,Tech Support,Worked very well... cleaned years of grease ... - Worked very well ... cleaned years of grease and dust buildup on my re,5,vacuum
+warranty_claim,0.3539,escalate,Warranty Ops,"Great price and a great item, glad I bought them! - Great quality, gives peace of mind to not have to worry about a hose",4,blender
+return_request,0.5181,flagged,Returns,Great product at an astounding price! - One of the best values we have found for our home!,5,air_fryer
+troubleshooting,0.3241,escalate,Tech Support,"Finally - Very useful.  easy to install,",4,vacuum
+troubleshooting,0.3725,escalate,Tech Support,"Does what it's supposed to - Overall, OK.  It does what it's supposed to.  It did have a very loud whine to it when I fi",4,vacuum
+product_question,0.3106,escalate,Sales,Even better coffee - I love my Aeropress but this made the coffee even smoother.,5,blender
+troubleshooting,0.4183,escalate,Tech Support,"Five Stars - The universal valve is great, works great.",5,vacuum
+troubleshooting,0.7047,auto_route,Tech Support,LG Refrigerator basic maintenance part. Good price. Good quality. - This filter fit perfectly and was easy to swap into ,5,vacuum
+troubleshooting,0.74,auto_route,Tech Support,Fixed fluctuating speed issue on my Vitamix - [[VIDEOID:cf54c8571294d40d6f53b0cea4ffdc44]] I was given a Vitamix from a ,5,blender
+product_question,0.313,escalate,Sales,"Worthwhile, though a bit pricey. - This is an interesting gadget.  It allows you to not have to use inverted method to k",4,blender
+product_question,0.3909,escalate,Sales,Perfect Ice All The Time!!! - I can not tell you how much I love my ice maker....perfect ice whenever I want it.  Having,5,vacuum
+product_question,0.5001,flagged,Sales,Fits and works well - Fit and works well,5,vacuum
+warranty_claim,0.4116,escalate,Warranty Ops,"this one actually tastes like the OEM LG one - After trying a few other 3rd party filters, this one actually tastes like",5,vacuum
+warranty_claim,0.4411,escalate,Warranty Ops,"Perfect replacement - Making ice again, for now.  I have a feeling these are disposable and will replace often...",5,air_fryer
+product_question,0.3748,escalate,Sales,Washing Machine Hoses - These quality hoses allowed me to move the washing machine closer to the wall thanks to the 90-d,5,blender
+product_question,0.4598,escalate,Sales,Works just as advertised - Connected  hot and cold water spigots in my basement and it works perfectly.,5,blender
+product_question,0.2889,escalate,Sales,Incredible range that does it all! - So far this is a perfect oven for us. Everything works flawlessly.  The induction c,5,air_fryer
+warranty_claim,0.3165,escalate,Warranty Ops,"Older First Build version has been good, but loud - I bought the older First Build version, and I love the ICE, and the ",4,vacuum
+return_request,0.337,escalate,Returns,they work - happy,5,blender
+product_question,0.3762,escalate,Sales,good - seams good,5,vacuum
+return_request,0.389,escalate,Returns,Four Stars - worked well!,4,vacuum
+troubleshooting,0.5032,flagged,Tech Support,"dryer vent wand - worked very well, but I also had short vent route only needed 1 rod",5,vacuum
+product_question,0.5133,flagged,Sales,Has a HUGE Safety Issue-Potential Gas Leak - I bought this gas stove less than 5 mo. ago and have run into a very seriou,1,air_fryer
+return_request,0.3342,escalate,Returns,Great - I like this product keeps lint cleaned out just wish was a lil thinner,5,vacuum
+warranty_claim,0.5135,flagged,Warranty Ops,Great official replacement - Does the job after we accidentally threw out the original!,5,blender
+product_question,0.4202,escalate,Sales,"VERY NICE, WOULD BUY AGAIN - bought this for new range / under-cabinet, no-vent install. took ~10 minutes to install and",5,vacuum
+product_question,0.4125,escalate,Sales,Maybe your best option - Best water filter I could find and not made in China.,5,vacuum
+return_request,0.3334,escalate,Returns,"Great accessory, would buy again - This filter is a great accessory for the Aeropress.  It attaches very snugly, stays a",5,blender
+warranty_claim,0.3672,escalate,Warranty Ops,Very nice looking hood - Very nice looking hood. Good function with both fan & lights. Put in LED lights & and they're w,4,vacuum
+product_question,0.3311,escalate,Sales,"Great ovens, user interface a bit confusing... - ...and awkward by comparison with our old GE oven stack. For instance, ",4,air_fryer
+troubleshooting,0.4053,escalate,Tech Support,"Workhorse - Makes more ice than we can use, this is a good problem to have",5,vacuum
+product_question,0.4351,escalate,Sales,Does what it says - I don't know how much I'll use this. Nice for car cleaning.,4,vacuum
+troubleshooting,0.3797,escalate,Tech Support,Great range hood!! - Great range hood! Intallation required a little extra iniiative.My cabinets have a recess underneat,4,vacuum
+product_question,0.6609,auto_route,Sales,Five Stars - Perfect fit and works well,5,vacuum
+troubleshooting,0.4874,escalate,Tech Support,"Finally! - I was struggling to get my dryer vent trap totally clean, even with my vacuum. I love the idea that this atta",5,vacuum
+warranty_claim,0.4617,escalate,Warranty Ops,"A Little Too Small - I’m a little disappointed in this replacement, as it fits just a little too tightly onto the Aeropr",3,blender
+troubleshooting,0.4411,escalate,Tech Support,The parts don't fit together! - The funnel looking thing (the adapter) is supposed to fit on the hose (see diagram where,1,vacuum
+troubleshooting,0.5614,flagged,Tech Support,"Great ice, but product problems are significant - I love the pearl ice this machine delivers....just like Sonic.  I purc",5,vacuum
+troubleshooting,0.4277,escalate,Tech Support,"Big problems, but makes great ice - [[VIDEOID:691c754c7b664c6c99fdabc5f8e7e04b]] The reviews were all positive on this i",2,vacuum
+product_question,0.4091,escalate,Sales,Great for cleaning lint from hard to reach places in the dryer - Works just as advertised,5,vacuum
+product_question,0.4277,escalate,Sales,"Looks Great - Just remodeled the kitchen and needed a ductless range hood this fits the bill nicely. It looks great, put",5,vacuum
+troubleshooting,0.4821,escalate,Tech Support,Easy change with hand tools and only takes a few ... - If you own a washing machine with rubber hoses and you came acros,5,blender
+warranty_claim,0.2717,escalate,Warranty Ops,B+ - Overall a very nice unit. Looks sleek and produces ice very well. The one down side is the ice itself. It produces ,4,vacuum
+warranty_claim,0.6709,auto_route,Warranty Ops,"Not as represented - These foam filters are said to replace the 90585 type R foam filter for shop vac. Wrong, clearly mi",1,vacuum
+troubleshooting,0.3468,escalate,Tech Support,more great hoses - got these to replace my regular washing machine hoses. these are very sturdy and great looking. got t,5,blender
+troubleshooting,0.4202,escalate,Tech Support,Broan Hood - This is a very nice looking hood. It seems to be made well and is extremely quit. Two issues the light bulb,4,vacuum
+troubleshooting,0.8015,auto_route,Tech Support,Fixed my humidifier to furnace - Work great so far after being installed for a month.  I wish the wires on the solenoid ,4,vacuum
+return_request,0.3509,escalate,Returns,great price - loveing them,5,air_fryer
+troubleshooting,0.7288,auto_route,Tech Support,vacuum hose attachment is useless - The vacuum hose attachment arrived folded to fit in the box.  This is not flexible p,1,vacuum
+product_question,0.5573,flagged,Sales,"Works well - Fit well,works great",4,vacuum
+warranty_claim,0.6756,auto_route,Warranty Ops,Poor design - Everything gets stuck in the tube. Wouldn't waste my money.,2,vacuum
+warranty_claim,0.6327,flagged,Warranty Ops,Pure garbage - This is a piece of junk. Very THIN plastic. Arrived broken. Please please don’t buy,1,vacuum
+warranty_claim,0.4615,escalate,Warranty Ops,"USELESS GARBAGE:  Way too stiff / unflexible. Won't go around even one right angle (90 degree turn), and only 10 feet. -",1,vacuum
+troubleshooting,0.7252,auto_route,Tech Support,"Excellent buy for authentic replacement - After 12 yrs, my Maytag oven bottom element went out. I'd already replaced the",5,air_fryer
+product_question,0.3625,escalate,Sales,"Good filter - This definitely helps keep construction dust out of the air. We've been remodelling and the plaster dust, ",5,vacuum
+warranty_claim,0.3529,escalate,Warranty Ops,Works as described - Works as described.  The lint filled up at least half my vacuum canister and that doesn't include t,5,vacuum
+product_question,0.4133,escalate,Sales,"Easy install - I bought this unit to replace a 1970's magic chef 24"" wall oven.  Easy install. The new unit is about 2"" ",5,air_fryer
+warranty_claim,0.4427,escalate,Warranty Ops,Our new house had a cheap range hood that did ... - Our new house had a cheap range hood that did not vent outside.  I h,5,vacuum
+troubleshooting,0.743,auto_route,Tech Support,Fixed my problem at a fraction of the Maytag price - Cold water fill had always been slow on our washing machine (came w,5,vacuum
+return_request,0.3807,escalate,Returns,Four Stars - So far so good. Easy installation and looked exactly like the original.,5,air_fryer
+product_question,0.4134,escalate,Sales,Great - This worked great in my front load dryer!,5,vacuum
+warranty_claim,0.5941,flagged,Warranty Ops,Got moldy a little quicker than I expected. You ... - Got moldy a little quicker than I expected. You get what you pay f,3,vacuum
+troubleshooting,0.3535,escalate,Tech Support,Looks better but isn't all that fabulous - The shell is beautiful when installed in kitchen. Still a hollow soup can in ,4,vacuum
+troubleshooting,0.3524,escalate,Tech Support,Next generation stove. - We decided to replace our 25+ year old Magic chef Oven/Microwave/stove vent with an new one aft,5,air_fryer
+troubleshooting,0.4018,escalate,Tech Support,"Glad I got it - I clean my filter with every load I dry. Despite that, I got a big chunk of lint out of my dryer using t",5,vacuum
+product_question,0.3694,escalate,Sales,The good ice - Love this!! It makes the best ice.,5,vacuum
+product_question,0.4764,escalate,Sales,Works as described at a great price - Does what is was made to do and is a great price,5,vacuum
+return_request,0.3281,escalate,Returns,satisfaction - Very good,5,vacuum
+return_request,0.3759,escalate,Returns,Four Stars - good,4,vacuum
+product_question,0.3856,escalate,Sales,Good price - Good price...easy to use,5,vacuum
+troubleshooting,0.4258,escalate,Tech Support,Researched for 6 months and chose to get the GE. Here are my thoughts. - On GE's implementation of induction:<br /><br /,5,air_fryer
+warranty_claim,0.6415,flagged,Warranty Ops,STAY AWAY FROM SAMSUNG RANGES - I owned this Range a mere four months and the finish on the cooktop is peeling off.  I f,1,air_fryer
+warranty_claim,0.3979,escalate,Warranty Ops,Do you have to be very careful when you use this - The rods spin  you have to go very slow with your drill. Better use f,3,vacuum
+product_question,0.3343,escalate,Sales,Five Stars - Came on time and as advertised.,5,vacuum
+warranty_claim,0.5049,flagged,Warranty Ops,"30"" Stainless Range Hood - Awesome! Since this was a replacement for my ugly white hood, installation was very easy. Be ",5,vacuum
+warranty_claim,0.6356,flagged,Warranty Ops,"Seller dropping the ball on packaging for delivery! - The seller packaged this product into a plastic mailing envelope, ",1,vacuum
+warranty_claim,0.4405,escalate,Warranty Ops,Samsung Gas Range Burner Knob Set of 5 - I received this product in exchange for my honest review as part of the Amazon ,5,air_fryer
+warranty_claim,0.3416,escalate,Warranty Ops,no coffee ground spill overs - Good quality no coffee ground still overs into your coffee!! Love the Bunn coffee maker c,5,blender
+product_question,0.361,escalate,Sales,"Trash - Do not buy.  I bought one and about 6 mo after purchasing it, the buttons stopped working.  It also never fully ",1,blender
+product_question,0.3403,escalate,Sales,Amazing tool - I bought this for use with my small handyman business. Works incredibly well.,5,vacuum
+troubleshooting,0.6457,flagged,Tech Support,"Maytag no longer equals quality. - Less than 4 years old and the touchpad died.  Used maybe once a week.  $150 part, plu",1,blender
+product_question,0.4002,escalate,Sales,"Five Stars - Great, no issues fits perfect",5,vacuum
+return_request,0.3255,escalate,Returns,Five Stars - Just what I needed at a good price and great delivery.,5,vacuum
+product_question,0.6836,auto_route,Sales,"No me encanto - Lo compré porque vi un review de que funcionaba muy bien pero realmente no me encanto, esperaba más para",5,vacuum
+product_question,0.4159,escalate,Sales,Easy to install - Fit over my stove perfectly. Easy to install. Works great,5,vacuum
+troubleshooting,0.4403,escalate,Tech Support,Five Stars - My vitamix works like new!,5,blender
+return_request,0.3207,escalate,Returns,The best - Cannot find a better unit at a better price anywhere. Quick delivery.,5,air_fryer
+product_question,0.328,escalate,Sales,Anoter 5-Star review - fits like a glove. - Another 5-star review.  I have a Shark N356Q vacuum that was about 2 or 3 ye,5,vacuum
+return_request,0.6057,flagged,Returns,"Safety hazard! - Very-very-very sharp edges!<br />Do not install lower environment,if you have kids!<br />Return.",1,vacuum
+product_question,0.4095,escalate,Sales,Five Stars - Very good buy.,5,blender
+troubleshooting,0.4672,escalate,Tech Support,Perfect solution. - Fit perfectly and was much cheaper than replacing the whole mixer. Perfect solution.,5,blender
+product_question,0.3858,escalate,Sales,Best of the Best!! - Can't tell all how awesome this machine really is. Best $900 I've spent in a long time. Medal handl,5,air_fryer
+troubleshooting,0.2751,escalate,Tech Support,"Best I ever Got - I am so glad I got this , I used it on my dryer Vent and I got so much lint out , I still have to use ",5,vacuum
+product_question,0.3674,escalate,Sales,Absolute best buy! Perfect nugget ice! - I've had this for few months and it's been the best purchase I've made in awhil,5,vacuum
+warranty_claim,0.6933,auto_route,Warranty Ops,Return - Arrived with shattered door. Returned.,1,air_fryer
+product_question,0.4013,escalate,Sales,Good Product - Works as expected.,5,blender
+return_request,0.3804,escalate,Returns,Five Stars - Great quality.,5,blender
+warranty_claim,0.5223,flagged,Warranty Ops,Do not buy if you like quiet & warranty repair can only say sorry... - [[VIDEOID:4c9d5a0067d3ec4238d3e1729535c41f]] if y,1,vacuum
+troubleshooting,0.5225,flagged,Tech Support,"Four Stars - Works fine in our humidifier, it is a filter.......",4,vacuum
+troubleshooting,0.5604,flagged,Tech Support,"Excellent quality and a reasonable price - My 25 foot dryer vent hadn't been clean in 17 years. This thing worked great,",5,vacuum
+troubleshooting,0.2806,escalate,Tech Support,High quality hose. - Very high quality! Nothing negative to say about this home. It operates and looks great on my new L,5,blender
+return_request,0.3658,escalate,Returns,"Works great - Cleaned out my dryer line, works great.  Major lint build up removed.",5,vacuum
+product_question,0.3662,escalate,Sales,Dryer Vet cleaner - Work great,5,vacuum
+return_request,0.3765,escalate,Returns,Good value for money - The filter fits and does its job. It is definitely thinner than the original but I feel like for ,4,vacuum
+warranty_claim,0.3499,escalate,Warranty Ops,This was supposed to be good condition - This was the 2nd one I ordered. First was new and was great. I bought the secon,1,vacuum
+warranty_claim,0.7259,auto_route,Warranty Ops,the rubber part falls apart - the rubber part crecked apart not a good product,1,vacuum
+warranty_claim,0.3827,escalate,Warranty Ops,I wanted to like it but the flaking paint issue has bitten me twice! - I've been through at least two of these in the la,2,vacuum
+return_request,0.3522,escalate,Returns,Bunn you can't go wrong - These are always easy to use and the price it right.,5,blender
+product_question,0.3273,escalate,Sales,Frigid ice maker - Easy to use. Seems to be working really good. Makes ice just like it says it does.,5,blender
+warranty_claim,0.2898,escalate,Warranty Ops,Very pleased - It holds true to its description!,5,blender
+return_request,0.3454,escalate,Returns,Great - Great,4,vacuum
+return_request,0.3627,escalate,Returns,Very Good Washing Machine Hoses - These were by far the best price on stainless steel washing machine hoses I could find,5,blender
+product_question,0.323,escalate,Sales,Best gift I've ever received - I am pregnant & was making daily trips to Sonic or Chick-Fil-A for 'good ice'. Enter this,5,vacuum
+warranty_claim,0.5834,flagged,Warranty Ops,Broke after seven months - Product worked great for about 7 months then started leaking. You can see the photos of the p,1,vacuum
+return_request,0.3419,escalate,Returns,lo mejor de lo mejor ante y un después de mi sazón la amo,5,vacuum
+troubleshooting,0.6905,auto_route,Tech Support,"My wife loved her Dyson V11 Torque Drive Cordless Vacuum; I thought it was flawed and overpriced, but neither of these i",1,vacuum
+troubleshooting,0.6595,auto_route,Tech Support,Funciona muy bien aunque es duradera la que tengo tiene un problema que para que funcione tengo que quitarle la batería ,4,vacuum
+troubleshooting,0.2968,escalate,Tech Support,"I have had this Dyson since 2020, so six years now . I love it . It’s my favorite tool to clean with, although mine does",4,vacuum
+warranty_claim,0.5242,flagged,Warranty Ops,When it worked it was so very good. Comfortable to handle and great power. Requiem: battery died after 8 months.,2,vacuum
+troubleshooting,0.6316,flagged,Tech Support,"Have it 2 1/2 years and I just got a dog that sheds
+Its very obvious that it's not strong enough to suck up the dog hair",1,vacuum
+troubleshooting,0.8209,auto_route,Tech Support,Works till it doesn’t. Brush head needs to be replaced but out of stock &don’t know when will be available. Have a probl,3,vacuum
+troubleshooting,0.4558,escalate,Tech Support,"Its turns on and then shuts off, already passed return window, have cleayit thoughly but still same problem
+Massively di",1,vacuum
+troubleshooting,0.6315,flagged,Tech Support,The cheap plastic piece in the V-ball that holds in the tiny screw on the V-ball wheel broke in less than two years. (Ac,1,vacuum
+troubleshooting,0.7178,auto_route,Tech Support,Great product but the port that the charging cable goes into has a pin in it and it came bent so when I mounted the wall,4,vacuum
+product_question,0.4454,escalate,Sales,"I received this Ninja blender (Model BL660) as a birthday gift in July 2012, just a few months after it was released. Fo",5,blender
+product_question,0.328,escalate,Sales,"Nice. Doesn’t have any options really as far as speed, ice crush, etc. but it works fine, looks nice.",4,blender
+warranty_claim,0.453,escalate,Warranty Ops,I've had this blender for almost 10 years. I would give it 5 stars for the blending capability from icy drinks to soups.,3,blender
+troubleshooting,0.5322,flagged,Tech Support,It stopped while working and I dont know how to repair it. I bought it cos of the durability but I was disappointed,3,blender
+product_question,0.3409,escalate,Sales,I LOVE mine so I had to get my daughter-in-law one for their new home. We love making smoothies with this. It's loud but,5,blender
+troubleshooting,0.6101,flagged,Tech Support,"With over five years of very occasional light use, the motor failed. Ninja offered 20% off a new complete unit purchased",3,blender
+warranty_claim,0.38,escalate,Warranty Ops,What is happening to ninja products? Zero stars … I’ve had my blender since March 7. It’s burning out on me now and it’s,1,blender
+return_request,0.3817,escalate,Returns,Works awesome with no issues,5,blender
+product_question,0.3383,escalate,Sales,My all time favourite Ninja .I scared to buy online but Iam really happy.,5,blender
+product_question,0.3274,escalate,Sales,Arrived on time ice crushing is great,5,blender
+return_request,0.6689,auto_route,Returns,Amé hacer esta compra me ahorro muchas cosas tiempo,5,air_fryer
+product_question,0.3482,escalate,Sales,"LOVE THIS AIRFRYER! It’s so easy to use, and all the different modes make it good for basically everything. It’s a littl",5,air_fryer
+product_question,0.4767,escalate,Sales,"Great purchase - ease of use, cleans up quickly, and chicken was delicious (crunchy)",5,air_fryer
+return_request,0.3682,escalate,Returns,Good quality and small size. Great for a small apartment or small family. Big enough to cook three hamburger patties or ,5,air_fryer
+return_request,0.3603,escalate,Returns,My sister talked me into buying an air fryer with paper basket holders. I love it. I don’t give up my limited counter sp,5,air_fryer
+product_question,0.3423,escalate,Sales,Love this air fryer. It’s easy to use and control. Clean up is super easy too. Looks nice on the counter and doesn’t tak,5,air_fryer
+warranty_claim,0.5913,flagged,Warranty Ops,Died in two years. And I did not use it very often.,1,air_fryer
+return_request,0.6261,flagged,Returns,"The air fryer emits a very strong chemical/burning plastic smell during use, and the odor was severe enough to set off m",1,air_fryer
+warranty_claim,0.472,escalate,Warranty Ops,Lasted me 3.5 years before having issues. Loved it when it worked. Not safe at all to use now. It’s smoked up my entire ,2,air_fryer
+product_question,0.6033,flagged,Sales,Este es el mejor producto q e comprado,5,air_fryer
+warranty_claim,0.515,flagged,Warranty Ops,Quick and easy refund for non fixable defect,5,vacuum
+warranty_claim,0.3783,escalate,Warranty Ops,"Reliable and worth the protection. Communication was awesome and I was taken care of, just purchased again with my new p",5,vacuum
+troubleshooting,0.6124,flagged,Tech Support,"Very pleased with this service. Sent me a mailing label, we sent the machine in . They told me they couldn’t repair it i",5,vacuum
+warranty_claim,0.2841,escalate,Warranty Ops,I am in the process of getting the robot set-up and mapped. It was relatively easy to set-up and appears to be sturdy. T,5,vacuum
+return_request,0.3142,escalate,Returns,The Vacuum is great,5,vacuum
+troubleshooting,0.4774,escalate,Tech Support,Get the Asurion plan. These are cheaper than big box stores. I received a prepaid shipping label and my particular situa,5,vacuum
+warranty_claim,0.6159,flagged,Warranty Ops,Trying to cancel insurance for a vacuum that you were able to cancel because you did it within minutes of placing the or,1,vacuum
+warranty_claim,0.4414,escalate,Warranty Ops,Resolved the claim within the timeframe and without any issues by refunding me the entire purchase price.,5,vacuum
+troubleshooting,0.614,flagged,Tech Support,Worth it. Takes a little bit of work to depending on the issue but received Amazon credit for my very expensive robo and,5,vacuum
+troubleshooting,0.5997,flagged,Tech Support,"My vacuum was no longer working, sent it to get it inspected, and it turns out it wasn't fixable. Asurion sent me a gift",5,vacuum
+warranty_claim,0.553,flagged,Warranty Ops,0 This product has only one small 🦐 flaw that I can find. The oil collector pan is not easy to remove. Especially when i,4,blender
+warranty_claim,0.6207,flagged,Warranty Ops,Quick and easy process. Invest in ASURION when buying any products on Amazon.,5,blender
+return_request,0.5947,flagged,Returns,"A must have for any purchase, big or small, you're always safe in their hands! The only thing to note is you get reimbur",5,blender
+return_request,0.4335,escalate,Returns,Impressed at how seamless the process was. Expected it to be strenuous.,5,blender
+warranty_claim,0.5984,flagged,Warranty Ops,The process was alot easier than I thought. Its worth to have your items protected.,5,blender
+warranty_claim,0.6149,flagged,Warranty Ops,"While the response was fast and hassle free, there were 2 UNwelcome surprises during this insurance coverage.
+(I DON'T l",3,blender
+return_request,0.7453,auto_route,Returns,It was very easy to return a product for reimbursement. Reimbursement was also very quickly.,5,blender
+return_request,0.5252,flagged,Returns,don’t buy,1,blender
+warranty_claim,0.663,auto_route,Warranty Ops,The claim process was very easy and quick. The Asurion agent was very easy to work with and he made the process seamless,5,blender
+warranty_claim,0.7952,auto_route,Warranty Ops,I don't normally buy protection plans for my purchases and bought this for a countertop induction cooktop due to the low,5,blender
+warranty_claim,0.5206,flagged,Warranty Ops,"I purchased this coverage to support an air fryer that I only got a couple of weeks ago. Since then, I've received email",3,air_fryer
+warranty_claim,0.8062,auto_route,Warranty Ops,From start to finish the process took about 48 hours for a defective microwave claim. Filled out general info like model,5,air_fryer
+return_request,0.4986,escalate,Returns,Very easy to return a Keurig coffee maker that broke outside the 30 day return window. Shortly after leaving the United ,5,air_fryer
+warranty_claim,0.5704,flagged,Warranty Ops,Super Efficient and Fast to send the refund after shipping the defective item out. I cover all my electronic purchases b,5,air_fryer
+warranty_claim,0.4498,escalate,Warranty Ops,It was a gift. Trusting in NINJA PRODUCTS.,4,air_fryer
+warranty_claim,0.4964,escalate,Warranty Ops,I had an iron that suddenly stopped working. Asurion was easy to work with (once I got to chatting with a real person). ,5,air_fryer
+troubleshooting,0.6682,auto_route,Tech Support,"Update, Ai can miss read ""Renewed"" as to mean ""New"" with Asurion will take to mean ""New"". So beware when purchasing a re",1,air_fryer
+troubleshooting,0.4434,escalate,Tech Support,"After the first Asurion representative mishandled the call, I spoke again with another person who provided me excellent ",5,air_fryer
+troubleshooting,0.3301,escalate,Tech Support,Save everything and check check check their follow through. They are very difficult to deal with. I had to resubmit ever,1,air_fryer
+return_request,0.7777,auto_route,Returns,Claim submission was easy and they pay you back with a Amazon gift card in days.,5,air_fryer
