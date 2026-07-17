@@ -5,6 +5,7 @@ Routes: dashboard, triage table, live demo with agent trace.
 
 import csv
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -83,22 +84,6 @@ def api_chat():
     return jsonify(result)
 
 
-@app.route("/chat")
-def chat_page():
-    return render_template("chat.html")
-
-
-@app.route("/api/chat", methods=["POST"])
-def api_chat():
-    data = request.get_json()
-    question = data.get("question", "")
-    if not question.strip():
-        return jsonify({"error": "No question provided"}), 400
-
-    result = chatbot_chat(question)
-    return jsonify(result)
-
-
 @app.route("/api/process", methods=["POST"])
 def api_process():
     data = request.get_json()
@@ -117,4 +102,5 @@ def api_process():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
