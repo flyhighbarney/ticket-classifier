@@ -1,0 +1,1544 @@
+<!-- Support Triage Dashboard - Desktop -->
+
+<!DOCTYPE html>
+
+
+
+<html class="dark" lang="en"><head>
+
+<meta charset="utf-8"/>
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+<title>Kinetic Support | AI Triage Dashboard</title>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"surface-container-low": "#121e1f", "on-tertiary-fixed-variant": "#004f50", surface: "#091516", "tertiary-container": "#002626", "on-secondary-fixed": "#311400", background: "#091516", "tertiary-fixed": "#4cf9f9", "surface-container-lowest": "#051011", "on-primary-fixed-variant": "#414469", "surface-container": "#162223", "on-primary": "#2a2d51", "on-surface-variant": "#c7c5cf", "primary-fixed": "#e0e0ff", "primary-container": "#1b1e41", "surface-container-highest": "#2b3738", "surface-variant": "#2b3738", "secondary-fixed": "#ffdcc6", "on-tertiary-fixed": "#002020", "outline-variant": "#46464e", "surface-dim": "#091516", "on-background": "#d8e5e6", "surface-container-high": "#202c2d", "on-tertiary": "#003737", "tertiary-fixed-dim": "#09dcdd", "primary-fixed-dim": "#c1c3f0", "on-secondary-container": "#ffb17c", "on-primary-fixed": "#15183b", "secondary-fixed-dim": "#ffb786", "secondary-container": "#803e00", "inverse-primary": "#595b82", "inverse-on-surface": "#263334", tertiary: "#09dcdd", "on-primary-container": "#8386af", "on-error": "#690005", primary: "#c1c3f0", "inverse-surface": "#d8e5e6", outline: "#919099", "on-secondary-fixed-variant": "#723600", secondary: "#ffb786", "on-secondary": "#502400", error: "#ffb4ab", "surface-tint": "#c1c3f0", "on-tertiary-container": "#009898", "on-error-container": "#ffdad6", "surface-bright": "#2f3b3c", "on-surface": "#d8e5e6", "error-container": "#93000a"}, borderRadius: {DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem"}, spacing: {sm: "12px", gutter: "24px", "margin-mobile": "16px", "margin-desktop": "40px", xl: "80px", md: "24px", lg: "48px", base: "8px", xs: "4px"}, fontFamily: {"label-sm": ["Inter"], "headline-md": ["Montserrat"], "headline-lg-mobile": ["Montserrat"], "body-md": ["Inter"], "headline-lg": ["Montserrat"], "display-lg": ["Montserrat"], "label-md": ["Inter"], "body-lg": ["Inter"], headline: ["Montserrat"], display: ["Montserrat"], body: ["Inter"], label: ["Inter"]}, fontSize: {"label-sm": ["12px", {lineHeight: "1.4", fontWeight: "500"}], "headline-md": ["24px", {lineHeight: "1.3", fontWeight: "600"}], "headline-lg-mobile": ["24px", {lineHeight: "1.2", fontWeight: "700"}], "body-md": ["16px", {lineHeight: "1.5", fontWeight: "400"}], "headline-lg": ["32px", {lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "700"}], "display-lg": ["48px", {lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700"}], "label-md": ["14px", {lineHeight: "1.4", letterSpacing: "0.05em", fontWeight: "600"}], "body-lg": ["18px", {lineHeight: "1.6", fontWeight: "400"}]}}}};</script>
+
+<style>
+
+        body {
+
+            background-color: #091516;
+
+            background-image: radial-gradient(circle at 2px 2px, rgba(0, 218, 243, 0.05) 1px, transparent 0);
+
+            background-size: 32px 32px;
+
+        }
+
+        .material-symbols-outlined {
+
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+
+            width: 4px;
+
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+
+            background: #091516;
+
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+
+            background: #2b3738;
+
+            border-radius: 10px;
+
+        }
+
+        .neon-glow-cyan {
+
+            box-shadow: 0 0 15px rgba(0, 218, 243, 0.15);
+
+        }
+
+        .data-grid-border {
+
+            border: 1px solid rgba(142, 145, 146, 0.1);
+
+        }
+
+    </style>
+
+</head>
+
+<body class="font-body-md text-on-surface overflow-hidden">
+
+<!-- App Shell -->
+
+<div class="flex h-screen w-full">
+
+<!-- SideNavBar (Authority Source: JSON) -->
+
+<aside class="fixed left-0 top-0 h-full flex flex-col z-40 bg-surface-container-low w-64 border-r border-outline-variant/20 shadow-xl">
+
+<div class="p-gutter flex flex-col h-full">
+
+<!-- Header -->
+
+<div class="flex items-center gap-base mb-lg">
+
+<div class="w-10 h-10 bg-tertiary rounded flex items-center justify-center text-on-tertiary">
+
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">biotech</span>
+
+</div>
+
+<div>
+
+<h1 class="font-headline-md text-headline-md text-on-surface leading-tight">SharkNinja</h1>
+
+<p class="font-label-sm text-label-sm text-tertiary opacity-80 uppercase tracking-widest">AI Triage System</p>
+
+</div>
+
+</div>
+
+<!-- Main Navigation -->
+
+<nav class="flex-1 space-y-xs">
+
+<div class="bg-secondary-container text-on-secondary-container border-r-2 border-tertiary px-base py-sm flex items-center gap-sm cursor-pointer active:opacity-80 transition-all duration-150">
+
+<span class="material-symbols-outlined">dashboard</span>
+
+<span class="font-label-md text-label-md">Dashboard</span>
+
+</div>
+
+<div class="text-on-surface-variant hover:bg-surface-container-high px-base py-sm flex items-center gap-sm cursor-pointer active:opacity-80 transition-all duration-150">
+
+<span class="material-symbols-outlined">rule</span>
+
+<span class="font-label-md text-label-md">Triage</span>
+
+</div>
+
+<div class="text-on-surface-variant hover:bg-surface-container-high px-base py-sm flex items-center gap-sm cursor-pointer active:opacity-80 transition-all duration-150">
+
+<span class="material-symbols-outlined">biotech</span>
+
+<span class="font-label-md text-label-md">Demo</span>
+
+</div>
+
+<div class="text-on-surface-variant hover:bg-surface-container-high px-base py-sm flex items-center gap-sm cursor-pointer active:opacity-80 transition-all duration-150">
+
+<span class="material-symbols-outlined">settings</span>
+
+<span class="font-label-md text-label-md">Settings</span>
+
+</div>
+
+</nav>
+
+<!-- CTA -->
+
+<button class="mb-lg w-full py-sm bg-tertiary text-on-tertiary font-label-md text-label-md flex items-center justify-center gap-xs rounded-lg hover:brightness-110 active:scale-95 transition-all shadow-lg shadow-tertiary/10">
+
+<span class="material-symbols-outlined text-[18px]">add</span>
+
+                    New Ticket
+
+                </button>
+
+<!-- Footer Nav -->
+
+<div class="border-t border-outline-variant/10 pt-md space-y-xs">
+
+<div class="text-on-surface-variant hover:bg-surface-container-high px-base py-sm flex items-center gap-sm cursor-pointer active:opacity-80 transition-all duration-150">
+
+<span class="material-symbols-outlined">verified_user</span>
+
+<span class="font-label-md text-label-md">Security</span>
+
+</div>
+
+<div class="text-on-surface-variant hover:bg-surface-container-high px-base py-sm flex items-center gap-sm cursor-pointer active:opacity-80 transition-all duration-150">
+
+<span class="material-symbols-outlined">logout</span>
+
+<span class="font-label-md text-label-md">Log Out</span>
+
+</div>
+
+</div>
+
+</div>
+
+</aside>
+
+<!-- Main Content Area -->
+
+<main class="ml-64 flex-1 flex flex-col h-screen overflow-hidden">
+
+<!-- TopNavBar (Authority Source: JSON) -->
+
+<header class="flex justify-between items-center px-gutter w-full h-16 bg-surface border-b border-outline-variant/10 bg-surface-container-low">
+
+<div class="flex items-center gap-gutter flex-1">
+
+<h2 class="font-headline-md text-headline-md font-bold text-tertiary">Kinetic Support</h2>
+
+<!-- Search Bar -->
+
+<div class="max-w-md w-full relative">
+
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+
+<input class="w-full bg-surface-container-highest border-none rounded-full pl-10 pr-base py-1.5 text-body-md placeholder:text-outline/50 focus:ring-1 focus:ring-tertiary/50 transition-all" placeholder="Search neural patterns..." type="text"/>
+
+</div>
+
+</div>
+
+<div class="flex items-center gap-md">
+
+<div class="flex items-center gap-sm text-primary">
+
+<span class="material-symbols-outlined cursor-pointer hover:text-tertiary transition-colors duration-200">notifications</span>
+
+<span class="material-symbols-outlined cursor-pointer hover:text-tertiary transition-colors duration-200">help</span>
+
+<span class="font-label-md text-label-md cursor-pointer hover:text-tertiary transition-colors duration-200">Support</span>
+
+</div>
+
+<div class="h-8 w-px bg-outline-variant/20 mx-xs"></div>
+
+<div class="flex items-center gap-sm">
+
+<div class="text-right hidden xl:block">
+
+<p class="font-label-md text-label-md text-on-surface leading-none">Alex Rivera</p>
+
+<p class="font-label-sm text-label-sm text-outline">System Lead</p>
+
+</div>
+
+<img class="w-10 h-10 rounded-full border border-tertiary/30 object-cover" data-alt="A close-up portrait of a professional system administrator in a high-tech dark environment. Soft cyan ambient lighting highlights the edges of their profile. They wear a minimalist headset, symbolizing data-driven communication. The background is a bokeh of glowing server status indicators in deep charcoal and electric teal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfKbWLGdIBcvAwtpvfOkgRKELHrjzFvkMpr0M0bjx3f3IstAxmBiQTQFBlNk4OhPZ8lr4-YqxrvRp8gGgEoE5V3Gt_RcJwA3PD1jdzNKKhkAiwcJf_KhWnj9NLeSDjLdmxHTB-JsQX-bc90nW0DYDlnR9N_ztvLb3EXMyjL1VYtBEIBsi3ghPXy2mZRyLZL5Xz42x_xwpz5UWd1YvAsfmREhhA0cqy6jd0D3CADuwQTuEVB5jCy76Kbw-rcLUBkXhNsKQOb8HMr9Mb"/>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- Scrollable Content -->
+
+<section class="flex-1 overflow-y-auto custom-scrollbar p-gutter space-y-gutter">
+
+<!-- Hero Metrics Row -->
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-md">
+
+<!-- Metric 1 -->
+
+<div class="bg-surface-container-high border border-outline-variant/20 p-md rounded-xl flex flex-col justify-between relative overflow-hidden group">
+
+<div class="absolute top-0 left-0 w-1 h-full bg-tertiary"></div>
+
+<div class="flex justify-between items-start">
+
+<p class="font-label-md text-label-md text-outline uppercase tracking-wider">Auto-Route Rate</p>
+
+<span class="material-symbols-outlined text-tertiary text-[20px]">route</span>
+
+</div>
+
+<div class="mt-md flex items-baseline gap-xs">
+
+<span class="font-display-lg text-display-lg text-on-surface leading-none">84%</span>
+
+<span class="text-on-tertiary-container font-label-sm">+2.4%</span>
+
+</div>
+
+<div class="mt-base h-1 w-full bg-surface-container-lowest rounded-full overflow-hidden">
+
+<div class="h-full bg-tertiary w-[84%]"></div>
+
+</div>
+
+</div>
+
+<!-- Metric 2 -->
+
+<div class="bg-surface-container-high border border-outline-variant/20 p-md rounded-xl flex flex-col justify-between relative overflow-hidden">
+
+<div class="absolute top-0 left-0 w-1 h-full bg-secondary"></div>
+
+<div class="flex justify-between items-start">
+
+<p class="font-label-md text-label-md text-outline uppercase tracking-wider">Time Saved</p>
+
+<span class="material-symbols-outlined text-secondary text-[20px]">timer</span>
+
+</div>
+
+<div class="mt-md flex items-baseline gap-xs">
+
+<span class="font-display-lg text-display-lg text-on-surface leading-none">12.4h</span>
+
+<span class="text-outline font-label-sm text-[10px]">AVG/DAY</span>
+
+</div>
+
+<div class="mt-base h-1 w-full bg-surface-container-lowest rounded-full overflow-hidden">
+
+<div class="h-full bg-secondary w-[65%]"></div>
+
+</div>
+
+</div>
+
+<!-- Metric 3 -->
+
+<div class="bg-surface-container-high border border-outline-variant/20 p-md rounded-xl flex flex-col justify-between relative overflow-hidden">
+
+<div class="absolute top-0 left-0 w-1 h-full bg-tertiary"></div>
+
+<div class="flex justify-between items-start">
+
+<p class="font-label-md text-label-md text-outline uppercase tracking-wider">ML Accuracy</p>
+
+<span class="material-symbols-outlined text-tertiary text-[20px]">psychology</span>
+
+</div>
+
+<div class="mt-md flex items-baseline gap-xs">
+
+<span class="font-display-lg text-display-lg text-on-surface leading-none">92%</span>
+
+<span class="text-on-tertiary-container font-label-sm">OPTIMIZED</span>
+
+</div>
+
+<div class="mt-base h-1 w-full bg-surface-container-lowest rounded-full overflow-hidden">
+
+<div class="h-full bg-tertiary w-[92%]"></div>
+
+</div>
+
+</div>
+
+<!-- Metric 4 -->
+
+<div class="bg-surface-container-high border border-outline-variant/20 p-md rounded-xl flex flex-col justify-between relative overflow-hidden">
+
+<div class="absolute top-0 left-0 w-1 h-full bg-error"></div>
+
+<div class="flex justify-between items-start">
+
+<p class="font-label-md text-label-md text-outline uppercase tracking-wider">Escalation Rate</p>
+
+<span class="material-symbols-outlined text-error text-[20px]">warning</span>
+
+</div>
+
+<div class="mt-md flex items-baseline gap-xs">
+
+<span class="font-display-lg text-display-lg text-on-surface leading-none">6%</span>
+
+<span class="text-error font-label-sm">-1.2%</span>
+
+</div>
+
+<div class="mt-base h-1 w-full bg-surface-container-lowest rounded-full overflow-hidden">
+
+<div class="h-full bg-error w-[6%]"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Main Section: Two Columns -->
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter items-start">
+
+<!-- Left: Recent Triage Table -->
+
+<div class="lg:col-span-2 bg-surface-container-low border border-outline-variant/20 rounded-xl overflow-hidden flex flex-col">
+
+<div class="p-md flex justify-between items-center border-b border-outline-variant/10">
+
+<div class="flex items-center gap-sm">
+
+<span class="material-symbols-outlined text-tertiary">analytics</span>
+
+<h3 class="font-headline-md text-headline-md">Recent Triage</h3>
+
+</div>
+
+<button class="text-label-md font-label-md text-tertiary flex items-center gap-xs hover:bg-tertiary/5 px-sm py-1.5 rounded transition-all">
+
+                                Export CSV <span class="material-symbols-outlined text-[16px]">download</span>
+
+</button>
+
+</div>
+
+<div class="overflow-x-auto">
+
+<table class="w-full text-left border-collapse">
+
+<thead class="bg-surface-container-high/50 border-b border-outline-variant/10">
+
+<tr>
+
+<th class="px-md py-4 font-label-md text-label-md text-outline">TICKET ID</th>
+
+<th class="px-md py-4 font-label-md text-label-md text-outline">PRODUCT</th>
+
+<th class="px-md py-4 font-label-md text-label-md text-outline">CATEGORY</th>
+
+<th class="px-md py-4 font-label-md text-label-md text-outline">CONFIDENCE</th>
+
+<th class="px-md py-4 font-label-md text-label-md text-outline text-right">STATUS</th>
+
+</tr>
+
+</thead>
+
+<tbody class="divide-y divide-outline-variant/5">
+
+<tr class="hover:bg-surface-container-high transition-colors group">
+
+<td class="px-md py-4 font-body-md text-tertiary font-medium">#SN-9421</td>
+
+<td class="px-md py-4 font-body-md text-on-surface">Shark Stratos</td>
+
+<td class="px-md py-4">
+
+<span class="px-sm py-0.5 rounded-full bg-tertiary/10 text-tertiary font-label-sm border border-tertiary/20">Suction Loss</span>
+
+</td>
+
+<td class="px-md py-4">
+
+<div class="flex items-center gap-sm">
+
+<div class="w-24 h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+
+<div class="bg-tertiary h-full w-[98%]"></div>
+
+</div>
+
+<span class="font-label-sm text-on-surface">98%</span>
+
+</div>
+
+</td>
+
+<td class="px-md py-4 text-right">
+
+<span class="flex items-center justify-end gap-xs text-on-tertiary-container font-label-sm">
+
+<span class="material-symbols-outlined text-[16px]">bolt</span> AUTO-ROUTED
+
+                                            </span>
+
+</td>
+
+</tr>
+
+<tr class="hover:bg-surface-container-high transition-colors">
+
+<td class="px-md py-4 font-body-md text-tertiary font-medium">#SN-9418</td>
+
+<td class="px-md py-4 font-body-md text-on-surface">Ninja Creami</td>
+
+<td class="px-md py-4">
+
+<span class="px-sm py-0.5 rounded-full bg-secondary/10 text-secondary font-label-sm border border-secondary/20">Blade Jam</span>
+
+</td>
+
+<td class="px-md py-4">
+
+<div class="flex items-center gap-sm">
+
+<div class="w-24 h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+
+<div class="bg-secondary h-full w-[72%]"></div>
+
+</div>
+
+<span class="font-label-sm text-on-surface">72%</span>
+
+</div>
+
+</td>
+
+<td class="px-md py-4 text-right">
+
+<span class="flex items-center justify-end gap-xs text-outline font-label-sm">
+
+<span class="material-symbols-outlined text-[16px]">person</span> MANUAL
+
+                                            </span>
+
+</td>
+
+</tr>
+
+<tr class="hover:bg-surface-container-high transition-colors">
+
+<td class="px-md py-4 font-body-md text-tertiary font-medium">#SN-9415</td>
+
+<td class="px-md py-4 font-body-md text-on-surface">Shark FlexStyle</td>
+
+<td class="px-md py-4">
+
+<span class="px-sm py-0.5 rounded-full bg-error/10 text-error font-label-sm border border-error/20">Power Failure</span>
+
+</td>
+
+<td class="px-md py-4">
+
+<div class="flex items-center gap-sm">
+
+<div class="w-24 h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+
+<div class="bg-tertiary h-full w-[88%]"></div>
+
+</div>
+
+<span class="font-label-sm text-on-surface">88%</span>
+
+</div>
+
+</td>
+
+<td class="px-md py-4 text-right">
+
+<span class="flex items-center justify-end gap-xs text-on-tertiary-container font-label-sm">
+
+<span class="material-symbols-outlined text-[16px]">bolt</span> AUTO-ROUTED
+
+                                            </span>
+
+</td>
+
+</tr>
+
+<tr class="hover:bg-surface-container-high transition-colors">
+
+<td class="px-md py-4 font-body-md text-tertiary font-medium">#SN-9409</td>
+
+<td class="px-md py-4 font-body-md text-on-surface">Ninja Woodfire</td>
+
+<td class="px-md py-4">
+
+<span class="px-sm py-0.5 rounded-full bg-tertiary/10 text-tertiary font-label-sm border border-tertiary/20">WiFi Sync</span>
+
+</td>
+
+<td class="px-md py-4">
+
+<div class="flex items-center gap-sm">
+
+<div class="w-24 h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+
+<div class="bg-tertiary h-full w-[95%]"></div>
+
+</div>
+
+<span class="font-label-sm text-on-surface">95%</span>
+
+</div>
+
+</td>
+
+<td class="px-md py-4 text-right">
+
+<span class="flex items-center justify-end gap-xs text-on-tertiary-container font-label-sm">
+
+<span class="material-symbols-outlined text-[16px]">bolt</span> AUTO-ROUTED
+
+                                            </span>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<div class="p-md bg-surface-container-low border-t border-outline-variant/10 flex justify-between items-center">
+
+<p class="font-label-sm text-label-sm text-outline">Showing 4 of 2,491 triage events</p>
+
+<div class="flex gap-xs">
+
+<button class="w-8 h-8 flex items-center justify-center rounded border border-outline-variant/20 hover:bg-surface-container-high"><span class="material-symbols-outlined text-[18px]">chevron_left</span></button>
+
+<button class="w-8 h-8 flex items-center justify-center rounded border border-tertiary bg-tertiary/10 text-tertiary"><span class="font-label-sm">1</span></button>
+
+<button class="w-8 h-8 flex items-center justify-center rounded border border-outline-variant/20 hover:bg-surface-container-high"><span class="font-label-sm">2</span></button>
+
+<button class="w-8 h-8 flex items-center justify-center rounded border border-outline-variant/20 hover:bg-surface-container-high"><span class="material-symbols-outlined text-[18px]">chevron_right</span></button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Right: AI Insights -->
+
+<div class="space-y-gutter">
+
+<!-- AI Insights Panel -->
+
+<div class="bg-surface-container-low border border-outline-variant/20 rounded-xl overflow-hidden p-md shadow-2xl">
+
+<div class="flex items-center justify-between mb-md">
+
+<h3 class="font-headline-md text-headline-md">AI Insights</h3>
+
+<span class="material-symbols-outlined text-tertiary animate-pulse">auto_awesome</span>
+
+</div>
+
+<div class="space-y-base mb-lg">
+
+<p class="font-label-sm text-label-sm text-outline uppercase">Top Trending Issues (24h)</p>
+
+<div class="space-y-sm">
+
+<div class="space-y-xs">
+
+<div class="flex justify-between text-label-sm">
+
+<span class="text-on-surface">Connectivity</span>
+
+<span class="text-tertiary">+12%</span>
+
+</div>
+
+<div class="h-2 bg-surface-container-highest rounded-full overflow-hidden">
+
+<div class="h-full bg-tertiary w-[88%]"></div>
+
+</div>
+
+</div>
+
+<div class="space-y-xs">
+
+<div class="flex justify-between text-label-sm">
+
+<span class="text-on-surface">Warranty Claims</span>
+
+<span class="text-secondary">-4%</span>
+
+</div>
+
+<div class="h-2 bg-surface-container-highest rounded-full overflow-hidden">
+
+<div class="h-full bg-secondary w-[45%]"></div>
+
+</div>
+
+</div>
+
+<div class="space-y-xs">
+
+<div class="flex justify-between text-label-sm">
+
+<span class="text-on-surface">Motor Faults</span>
+
+<span class="text-tertiary">+22%</span>
+
+</div>
+
+<div class="h-2 bg-surface-container-highest rounded-full overflow-hidden">
+
+<div class="h-full bg-tertiary w-[65%]"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Network Visualization -->
+
+<div class="relative h-48 rounded-lg bg-surface-container-lowest border border-outline-variant/10 overflow-hidden flex items-center justify-center">
+
+<div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+
+<div class="z-10 text-center">
+
+<p class="font-label-md text-label-md text-tertiary">Real-time Cluster Analysis</p>
+
+<p class="font-label-sm text-label-sm text-outline">Processing 450 nodes/sec</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- System Health Card -->
+
+<div class="bg-surface-container-high border border-outline-variant/20 rounded-xl p-md">
+
+<div class="flex items-center gap-sm mb-base">
+
+<div class="w-2 h-2 bg-tertiary rounded-full animate-ping"></div>
+
+<span class="font-label-md text-label-md text-on-surface">Neural Engine Core v4.2</span>
+
+</div>
+
+<div class="flex justify-between text-label-sm text-outline">
+
+<span>Status: Operational</span>
+
+<span>Latency: 42ms</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+</div>
+
+<!-- Micro-interaction Script -->
+
+<script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Tab active states (authority logic)
+
+            const navItems = document.querySelectorAll('aside nav > div');
+
+            navItems.forEach(item => {
+
+                item.addEventListener('click', () => {
+
+                    navItems.forEach(i => {
+
+                        i.className = "text-on-surface-variant hover:bg-surface-container-high px-base py-sm flex items-center gap-sm cursor-pointer active:opacity-80 transition-all duration-150";
+
+                    });
+
+                    item.className = "bg-secondary-container text-on-secondary-container border-r-2 border-tertiary px-base py-sm flex items-center gap-sm cursor-pointer active:opacity-80 transition-all duration-150";
+
+                });
+
+            });
+
+
+
+            // Subtle interaction: Hover on table rows affects confidence bar brightness
+
+            const rows = document.querySelectorAll('tbody tr');
+
+            rows.forEach(row => {
+
+                row.addEventListener('mouseenter', () => {
+
+                    const bar = row.querySelector('.bg-tertiary, .bg-secondary');
+
+                    if (bar) bar.classList.add('brightness-125');
+
+                });
+
+                row.addEventListener('mouseleave', () => {
+
+                    const bar = row.querySelector('.bg-tertiary, .bg-secondary');
+
+                    if (bar) bar.classList.remove('brightness-125');
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+</body></html>
+
+
+
+<!-- Support Triage Dashboard -->
+
+<!DOCTYPE html>
+
+
+
+<html class="dark" lang="en"><head>
+
+<meta charset="utf-8"/>
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet"/>
+
+<style>
+
+        .material-symbols-outlined {
+
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+
+        }
+
+        .kinetic-glow:hover {
+
+            box-shadow: 0 0 15px rgba(0, 218, 243, 0.3);
+
+            border-color: #00daf3;
+
+        }
+
+        .data-grid-pattern {
+
+            background-image: radial-gradient(#2b3738 1px, transparent 1px);
+
+            background-size: 24px 24px;
+
+        }
+
+        ::-webkit-scrollbar {
+
+            width: 6px;
+
+        }
+
+        ::-webkit-scrollbar-track {
+
+            background: #051011;
+
+        }
+
+        ::-webkit-scrollbar-thumb {
+
+            background: #2b3738;
+
+            border-radius: 10px;
+
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+
+            background: #00daf3;
+
+        }
+
+    </style>
+
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {secondary: "#ffb786", "tertiary-container": "#002626", "secondary-container": "#803e00", background: "#091516", "primary-fixed-dim": "#c1c3f0", "surface-container": "#162223", "secondary-fixed": "#ffdcc6", "surface-container-lowest": "#051011", "inverse-surface": "#d8e5e6", "surface-tint": "#c1c3f0", "surface-container-high": "#202c2d", "on-tertiary-fixed": "#002020", "tertiary-fixed-dim": "#09dcdd", "surface-variant": "#2b3738", "on-surface": "#d8e5e6", "surface-container-low": "#121e1f", surface: "#091516", "on-tertiary-fixed-variant": "#004f50", "error-container": "#93000a", "surface-bright": "#2f3b3c", "inverse-primary": "#595b82", error: "#ffb4ab", "on-primary": "#2a2d51", "primary-container": "#1b1e41", "on-secondary-fixed-variant": "#723600", "on-background": "#d8e5e6", "secondary-fixed-dim": "#ffb786", "on-error": "#690005", "inverse-on-surface": "#263334", "tertiary-fixed": "#4cf9f9", "surface-container-highest": "#2b3738", "on-surface-variant": "#c7c5cf", "surface-dim": "#091516", "on-secondary": "#502400", "on-secondary-fixed": "#311400", outline: "#919099", "on-tertiary-container": "#009898", "on-error-container": "#ffdad6", "primary-fixed": "#e0e0ff", "on-primary-fixed-variant": "#414469", "on-tertiary": "#003737", "on-primary-container": "#8386af", "on-secondary-container": "#ffb17c", "outline-variant": "#46464e", tertiary: "#09dcdd", primary: "#c1c3f0", "on-primary-fixed": "#15183b"}, borderRadius: {DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem"}, spacing: {xs: "4px", base: "8px", lg: "48px", sm: "12px", md: "24px", xl: "80px", "margin-desktop": "40px", gutter: "24px", "margin-mobile": "16px"}, fontFamily: {"body-lg": ["Inter"], "headline-md": ["Montserrat"], "headline-lg-mobile": ["Montserrat"], "label-md": ["Inter"], "label-sm": ["Inter"], "display-lg": ["Montserrat"], "headline-lg": ["Montserrat"], "body-md": ["Inter"], headline: ["Montserrat"], display: ["Montserrat"], body: ["Inter"], label: ["Inter"]}, fontSize: {"body-lg": ["18px", {lineHeight: "1.6", fontWeight: "400"}], "headline-md": ["24px", {lineHeight: "1.3", fontWeight: "600"}], "headline-lg-mobile": ["24px", {lineHeight: "1.2", fontWeight: "700"}], "label-md": ["14px", {lineHeight: "1.4", letterSpacing: "0.05em", fontWeight: "600"}], "label-sm": ["12px", {lineHeight: "1.4", fontWeight: "500"}], "display-lg": ["48px", {lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700"}], "headline-lg": ["32px", {lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "700"}], "body-md": ["16px", {lineHeight: "1.5", fontWeight: "400"}]}}}};</script>
+
+<style>
+
+    body {
+
+      min-height: max(884px, 100dvh);
+
+    }
+
+  </style>
+
+<style>
+
+    body {
+
+      min-height: max(884px, 100dvh);
+
+    }
+
+  </style>
+
+<style>
+
+    body {
+
+      min-height: max(884px, 100dvh);
+
+    }
+
+  </style>
+
+<style>
+
+    body {
+
+      min-height: max(884px, 100dvh);
+
+    }
+
+  </style>
+
+  </head>
+
+<body class="bg-background text-on-background font-body-md min-h-screen pb-24 md:pb-0">
+
+<!-- TopAppBar -->
+
+<header class="w-full top-0 sticky z-50 border-b border-outline-variant bg-surface-container-lowest flex items-center justify-between px-margin-mobile py-base md:px-margin-desktop">
+
+<div class="flex items-center gap-base">
+
+<span class="material-symbols-outlined text-primary text-headline-md" style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
+
+<h1 class="font-headline-md text-headline-md font-bold tracking-tighter text-primary">SHARK | NINJA</h1>
+
+</div>
+
+<nav class="hidden md:flex gap-md">
+
+<a class="text-tertiary font-bold font-label-md transition-colors hover:bg-surface-variant px-sm py-xs rounded" href="#">Dashboard</a>
+
+<a class="text-on-surface-variant font-label-md transition-colors hover:bg-surface-variant px-sm py-xs rounded" href="#">Triage</a>
+
+<a class="text-on-surface-variant font-label-md transition-colors hover:bg-surface-variant px-sm py-xs rounded" href="#">Demo</a>
+
+<a class="text-on-surface-variant font-label-md transition-colors hover:bg-surface-variant px-sm py-xs rounded" href="#">Settings</a>
+
+</nav>
+
+<div class="flex items-center gap-sm">
+
+<span class="material-symbols-outlined text-on-surface-variant">notifications</span>
+
+<div class="w-8 h-8 rounded-full bg-surface-variant border border-outline-variant flex items-center justify-center">
+
+<span class="material-symbols-outlined text-label-sm">person</span>
+
+</div>
+
+</div>
+
+</header>
+
+<main class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-md">
+
+<!-- Hero Stats Section -->
+
+<section class="mb-lg">
+
+<div class="flex items-center justify-between mb-md">
+
+<h2 class="font-headline-lg text-headline-lg text-primary">System Performance</h2>
+
+<div class="flex items-center gap-xs text-tertiary">
+
+<span class="material-symbols-outlined text-sm">charging_station</span>
+
+<span class="font-label-sm">LIVE FEED</span>
+
+</div>
+
+</div>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+
+<!-- Auto-Route Rate -->
+
+<div class="bg-surface-container-low border-l-4 border-tertiary p-md kinetic-glow transition-all">
+
+<p class="font-label-sm text-on-surface-variant uppercase tracking-widest mb-xs">Auto-Route Rate</p>
+
+<div class="flex items-end justify-between">
+
+<h3 class="font-display-lg text-display-lg text-on-surface">84<span class="text-tertiary text-headline-lg">%</span></h3>
+
+<span class="material-symbols-outlined text-tertiary mb-base">rocket_launch</span>
+
+</div>
+
+<div class="mt-base h-1 bg-surface-variant w-full overflow-hidden">
+
+<div class="bg-tertiary h-full w-[84%]"></div>
+
+</div>
+
+</div>
+
+<!-- Time Saved -->
+
+<div class="bg-surface-container-low border-l-4 border-secondary p-md kinetic-glow transition-all">
+
+<p class="font-label-sm text-on-surface-variant uppercase tracking-widest mb-xs">Time Saved</p>
+
+<div class="flex items-end justify-between">
+
+<h3 class="font-display-lg text-display-lg text-on-surface">12.4<span class="text-secondary text-headline-lg text-body-lg">h</span></h3>
+
+<span class="material-symbols-outlined text-secondary mb-base">timer</span>
+
+</div>
+
+<p class="text-label-sm text-secondary mt-base">Last 24 hours</p>
+
+</div>
+
+<!-- Accuracy -->
+
+<div class="bg-surface-container-low border-l-4 border-tertiary p-md kinetic-glow transition-all">
+
+<p class="font-label-sm text-on-surface-variant uppercase tracking-widest mb-xs">ML Accuracy</p>
+
+<div class="flex items-end justify-between">
+
+<h3 class="font-display-lg text-display-lg text-on-surface">92<span class="text-tertiary text-headline-lg">%</span></h3>
+
+<span class="material-symbols-outlined text-tertiary mb-base">verified</span>
+
+</div>
+
+<div class="mt-base flex items-center gap-xs">
+
+<span class="material-symbols-outlined text-tertiary text-sm">trending_up</span>
+
+<span class="text-label-sm text-tertiary">+1.2% from peak</span>
+
+</div>
+
+</div>
+
+<!-- Escalation Rate -->
+
+<div class="bg-surface-container-low border-l-4 border-error p-md kinetic-glow transition-all">
+
+<p class="font-label-sm text-on-surface-variant uppercase tracking-widest mb-xs">Escalation Rate</p>
+
+<div class="flex items-end justify-between">
+
+<h3 class="font-display-lg text-display-lg text-on-surface">6<span class="text-error text-headline-lg">%</span></h3>
+
+<span class="material-symbols-outlined text-error mb-base">report</span>
+
+</div>
+
+<p class="text-label-sm text-on-surface-variant mt-base">14 cases today</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Main Workspace: Triage List & Preview -->
+
+<section class="grid grid-cols-1 lg:grid-cols-3 gap-gutter items-start">
+
+<!-- Triage List (2/3 Column) -->
+
+<div class="lg:col-span-2 space-y-md">
+
+<div class="flex items-center justify-between">
+
+<div class="flex items-center gap-sm">
+
+<h2 class="font-headline-md text-headline-md text-on-surface">Recent Triage</h2>
+
+<span class="bg-surface-container-highest text-on-surface-variant px-sm py-xs text-label-sm rounded">Total: 492</span>
+
+</div>
+
+<button class="flex items-center gap-xs text-tertiary hover:bg-tertiary-container p-xs rounded transition-colors">
+
+<span class="material-symbols-outlined">filter_list</span>
+
+<span class="font-label-md">Filter</span>
+
+</button>
+
+</div>
+
+<div class="bg-surface-container-low border border-outline-variant overflow-hidden rounded-lg">
+
+<!-- Table Header -->
+
+<div class="grid grid-cols-12 gap-base px-md py-base bg-surface-container-high border-b border-outline-variant font-label-md text-on-surface-variant uppercase tracking-wider">
+
+<div class="col-span-3">Ticket ID</div>
+
+<div class="col-span-4">Category</div>
+
+<div class="col-span-2">Confidence</div>
+
+<div class="col-span-3 text-right">Status</div>
+
+</div>
+
+<!-- Scrollable Content -->
+
+<div class="max-h-[500px] overflow-y-auto divide-y divide-outline-variant/30">
+
+<!-- Row 1 -->
+
+<div class="grid grid-cols-12 gap-base px-md py-md hover:bg-surface-variant/30 transition-colors cursor-pointer group items-center">
+
+<div class="col-span-3 font-mono text-secondary">#SN-9421</div>
+
+<div class="col-span-4">
+
+<span class="bg-blue-900/40 text-blue-300 border border-blue-700/50 px-sm py-1 rounded text-label-sm">Warranty Claim</span>
+
+</div>
+
+<div class="col-span-2">
+
+<div class="flex items-center gap-xs">
+
+<span class="text-on-surface font-semibold">94%</span>
+
+<div class="w-8 h-1 bg-surface-variant rounded-full overflow-hidden">
+
+<div class="bg-tertiary h-full w-[94%]"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-span-3 text-right">
+
+<div class="inline-flex items-center gap-xs text-tertiary font-label-md">
+
+<span class="material-symbols-outlined text-sm">automation</span>
+
+                                    Auto-routed
+
+                                </div>
+
+</div>
+
+</div>
+
+<!-- Row 2 -->
+
+<div class="grid grid-cols-12 gap-base px-md py-md hover:bg-surface-variant/30 transition-colors cursor-pointer group items-center">
+
+<div class="col-span-3 font-mono text-secondary">#SN-9422</div>
+
+<div class="col-span-4">
+
+<span class="bg-cyan-900/40 text-cyan-300 border border-cyan-700/50 px-sm py-1 rounded text-label-sm">Troubleshooting</span>
+
+</div>
+
+<div class="col-span-2">
+
+<div class="flex items-center gap-xs">
+
+<span class="text-on-surface font-semibold">88%</span>
+
+<div class="w-8 h-1 bg-surface-variant rounded-full overflow-hidden">
+
+<div class="bg-tertiary h-full w-[88%]"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-span-3 text-right">
+
+<div class="inline-flex items-center gap-xs text-tertiary font-label-md">
+
+<span class="material-symbols-outlined text-sm">automation</span>
+
+                                    Auto-routed
+
+                                </div>
+
+</div>
+
+</div>
+
+<!-- Row 3 -->
+
+<div class="grid grid-cols-12 gap-base px-md py-md hover:bg-surface-variant/30 transition-colors cursor-pointer group items-center">
+
+<div class="col-span-3 font-mono text-secondary">#SN-9418</div>
+
+<div class="col-span-4">
+
+<span class="bg-blue-900/40 text-blue-300 border border-blue-700/50 px-sm py-1 rounded text-label-sm">Warranty Claim</span>
+
+</div>
+
+<div class="col-span-2">
+
+<div class="flex items-center gap-xs">
+
+<span class="text-on-surface font-semibold">61%</span>
+
+<div class="w-8 h-1 bg-surface-variant rounded-full overflow-hidden">
+
+<div class="bg-error h-full w-[61%]"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-span-3 text-right">
+
+<div class="inline-flex items-center gap-xs text-on-surface-variant font-label-md">
+
+<span class="material-symbols-outlined text-sm">person</span>
+
+                                    Manual Review
+
+                                </div>
+
+</div>
+
+</div>
+
+<!-- Row 4 -->
+
+<div class="grid grid-cols-12 gap-base px-md py-md hover:bg-surface-variant/30 transition-colors cursor-pointer group items-center">
+
+<div class="col-span-3 font-mono text-secondary">#SN-9415</div>
+
+<div class="col-span-4">
+
+<span class="bg-cyan-900/40 text-cyan-300 border border-cyan-700/50 px-sm py-1 rounded text-label-sm">Troubleshooting</span>
+
+</div>
+
+<div class="col-span-2">
+
+<div class="flex items-center gap-xs">
+
+<span class="text-on-surface font-semibold">97%</span>
+
+<div class="w-8 h-1 bg-surface-variant rounded-full overflow-hidden">
+
+<div class="bg-tertiary h-full w-[97%]"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-span-3 text-right">
+
+<div class="inline-flex items-center gap-xs text-tertiary font-label-md">
+
+<span class="material-symbols-outlined text-sm">automation</span>
+
+                                    Auto-routed
+
+                                </div>
+
+</div>
+
+</div>
+
+<!-- Row 5 -->
+
+<div class="grid grid-cols-12 gap-base px-md py-md hover:bg-surface-variant/30 transition-colors cursor-pointer group items-center">
+
+<div class="col-span-3 font-mono text-secondary">#SN-9410</div>
+
+<div class="col-span-4">
+
+<span class="bg-purple-900/40 text-purple-300 border border-purple-700/50 px-sm py-1 rounded text-label-sm">Product Inquiry</span>
+
+</div>
+
+<div class="col-span-2">
+
+<div class="flex items-center gap-xs">
+
+<span class="text-on-surface font-semibold">91%</span>
+
+<div class="w-8 h-1 bg-surface-variant rounded-full overflow-hidden">
+
+<div class="bg-tertiary h-full w-[91%]"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-span-3 text-right">
+
+<div class="inline-flex items-center gap-xs text-tertiary font-label-md">
+
+<span class="material-symbols-outlined text-sm">automation</span>
+
+                                    Auto-routed
+
+                                </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Insights / System Status (1/3 Column) -->
+
+<div class="space-y-md">
+
+<h2 class="font-headline-md text-headline-md text-on-surface">AI Insights</h2>
+
+<div class="bg-surface-container-low border border-outline-variant p-md rounded-lg">
+
+<div class="flex items-center gap-sm mb-md">
+
+<span class="material-symbols-outlined text-tertiary">psychology</span>
+
+<h3 class="font-label-md text-on-surface">Category Trends</h3>
+
+</div>
+
+<div class="space-y-md">
+
+<div>
+
+<div class="flex justify-between text-label-sm mb-xs">
+
+<span class="text-on-surface-variant">Handheld Vacuums</span>
+
+<span class="text-tertiary">+14% Spike</span>
+
+</div>
+
+<div class="h-2 bg-surface-variant rounded-full">
+
+<div class="bg-tertiary h-full w-3/4 rounded-full"></div>
+
+</div>
+
+</div>
+
+<div>
+
+<div class="flex justify-between text-label-sm mb-xs">
+
+<span class="text-on-surface-variant">Air Purifiers</span>
+
+<span class="text-secondary">Steady</span>
+
+</div>
+
+<div class="h-2 bg-surface-variant rounded-full">
+
+<div class="bg-secondary h-full w-1/2 rounded-full"></div>
+
+</div>
+
+</div>
+
+<div>
+
+<div class="flex justify-between text-label-sm mb-xs">
+
+<span class="text-on-surface-variant">Pressure Cookers</span>
+
+<span class="text-error">-8% Drop</span>
+
+</div>
+
+<div class="h-2 bg-surface-variant rounded-full">
+
+<div class="bg-error h-full w-1/4 rounded-full"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="bg-tertiary-container/30 border border-tertiary/20 p-md rounded-lg relative overflow-hidden">
+
+<div class="relative z-10">
+
+<h3 class="font-label-md text-tertiary flex items-center gap-xs mb-sm">
+
+<span class="material-symbols-outlined text-sm">bolt</span>
+
+                            System Health
+
+                        </h3>
+
+<p class="text-body-md text-on-surface-variant mb-md">Neural pathways operating at peak efficiency. No latency detected in ticket routing.</p>
+
+<div class="flex items-center gap-sm">
+
+<div class="flex -space-x-2">
+
+<div class="w-6 h-6 rounded-full bg-surface-variant border border-background"></div>
+
+<div class="w-6 h-6 rounded-full bg-secondary border border-background"></div>
+
+<div class="w-6 h-6 rounded-full bg-tertiary border border-background"></div>
+
+</div>
+
+<span class="text-label-sm text-on-surface-variant">3 Models Active</span>
+
+</div>
+
+</div>
+
+<div class="absolute top-0 right-0 p-base opacity-10">
+
+<span class="material-symbols-outlined text-8xl" style="font-variation-settings: 'wght' 700;">grid_view</span>
+
+</div>
+
+</div>
+
+<!-- Graphic/Visual Element -->
+
+<div class="aspect-video bg-surface-container-lowest border border-outline-variant relative rounded-lg overflow-hidden flex items-center justify-center">
+
+<div class="data-grid-pattern absolute inset-0 opacity-20"></div>
+
+<div class="relative z-10 flex flex-col items-center">
+
+<span class="material-symbols-outlined text-tertiary text-display-lg animate-pulse" style="font-variation-settings: 'FILL' 1;">hub</span>
+
+<span class="font-label-sm text-on-surface-variant mt-sm tracking-widest uppercase">Network Visualization</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- BottomNavBar -->
+
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-margin-mobile py-base bg-surface-container-lowest border-t border-outline-variant shadow-sm">
+
+<a class="flex flex-col items-center justify-center bg-tertiary-container text-on-tertiary-container rounded-full px-md py-xs scale-90 duration-200" href="#">
+
+<span class="material-symbols-outlined">dashboard</span>
+
+<span class="font-label-sm">Dashboard</span>
+
+</a>
+
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:text-tertiary transition-all" href="#">
+
+<span class="material-symbols-outlined">rule</span>
+
+<span class="font-label-sm">Triage</span>
+
+</a>
+
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:text-tertiary transition-all" href="#">
+
+<span class="material-symbols-outlined">terminal</span>
+
+<span class="font-label-sm">Demo</span>
+
+</a>
+
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:text-tertiary transition-all" href="#">
+
+<span class="material-symbols-outlined">settings</span>
+
+<span class="font-label-sm">Settings</span>
+
+</a>
+
+</nav>
+
+<script>
+
+        // Micro-interaction for hover states
+
+        document.querySelectorAll('.kinetic-glow').forEach(card => {
+
+            card.addEventListener('mouseenter', () => {
+
+                card.style.transform = 'translateY(-2px)';
+
+            });
+
+            card.addEventListener('mouseleave', () => {
+
+                card.style.transform = 'translateY(0)';
+
+            });
+
+        });
+
+
+
+        // Simulating some live data flickering for effect
+
+        setInterval(() => {
+
+            const liveFeed = document.querySelector('.animate-pulse');
+
+            if(liveFeed) {
+
+                liveFeed.style.opacity = Math.random() > 0.5 ? '1' : '0.7';
+
+            }
+
+        }, 1500);
+
+    </script>
+
+</body></html>
+
+
+
+
+

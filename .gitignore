@@ -40,3 +40,6 @@ Thumbs.db
 # HuggingFace model cache (large)
 models/
 .cache/
+
+# Claude Code
+.claude/
